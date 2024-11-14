@@ -26,6 +26,7 @@ const EXCLUDED_DIR_PATTERNS = [
   "/discourse/plugins/chat/test",
   "/discourse/plugins/discourse-deprecation-collector/",
 ];
+const UNPARSABLE_INDICATOR = 'undefined';
 const filesToDebug = [];
 
 async function isExcludedDir(filePath) {
@@ -97,15 +98,23 @@ function extractAppEvents(path, filePath, eventTriggers, hasAppEventsTrigger) {
     ) {
       hasAppEventsTrigger.result = true;
 
-      const { eventId } = extractEventDetails(node.arguments[0]);
+      const eventId = extractArgument(node.arguments[0]).argValue;
       const location = node.loc;
       const lineNumber = location ? location.start.line : null;
+      const args = node.arguments.slice(1).map((arg, index) => {
+        return {
+          ...extractArgument(arg),
+          argPosition: index + 1
+        };
+      });
+
       const comments = extractComments(path);
 
       eventTriggers.push({
         eventId,
         filePath,
         lineNumber,
+        args,
         comments,
       });
     }
@@ -137,44 +146,56 @@ function extractAppEventsFromOptionalExpressions(
     ) {
       hasAppEventsTrigger.result = true;
 
-      const { eventId } = extractEventDetails(node.arguments[0]);
+      const eventId = extractArgument(node.arguments[0]).argValue;
       const location = node.loc;
       const lineNumber = location ? location.start.line : null;
+      const args = node.arguments.slice(1).map((arg, index) => {
+        return {
+          ...extractArgument(arg),
+          argPosition: index + 1
+        };
+      });
+
       const comments = extractComments(path);
 
       eventTriggers.push({
         eventId,
         filePath,
         lineNumber,
+        args,
         comments,
       });
     }
   }
 }
 
-function extractEventDetails(eventIdNode) {
-  let eventId;
+function extractArgument(argNode) {
+  let argValue, argType;
 
-  if (t.isStringLiteral(eventIdNode)) {
-    eventId = eventIdNode.value;
-  } else if (t.isIdentifier(eventIdNode)) {
-    eventId = eventIdNode.name;
-  } else if (t.isMemberExpression(eventIdNode)) {
-    eventId = extractNameFromMemberExpression(eventIdNode);
-  } else if (t.isCallExpression(eventIdNode)) {
+  if (t.isStringLiteral(argNode)) {
+    argValue = argNode.value;
+    argType = "string";
+  } else if (t.isIdentifier(argNode)) {
+    argValue = argNode.name;
+    argType = "variable";
+  } else if (t.isMemberExpression(argNode)) {
+    argValue = extractNameFromMemberExpression(argNode);
+    argType = "property";
+  } else if (t.isCallExpression(argNode)) {
     let calleeObjectName;
-    if (eventIdNode.callee.object) {
-      calleeObjectName = t.isThisExpression(eventIdNode.callee.object)
+    if (argNode.callee.object) {
+      calleeObjectName = t.isThisExpression(argNode.callee.object)
         ? "this"
-        : eventIdNode.callee.object.name;
+        : argNode.callee.object.name;
     }
-    eventId = `${calleeObjectName}.${eventIdNode.callee.property.name}`;
-  } else if (t.isTemplateLiteral(eventIdNode)) {
-    eventId = eventIdNode.quasis.reduce((acc, quasi, index) => {
+    argValue = `${calleeObjectName}.${argNode.callee.property.name}`;
+    argType = "called_function";
+  } else if (t.isTemplateLiteral(argNode)) {
+    argValue = argNode.quasis.reduce((acc, quasi, index) => {
       // empty string quasi value here is fine, just indicates that it's either a head or tail quasi that should have an expression interpolated
       acc += quasi.value.raw;
 
-      const currExpression = eventIdNode.expressions[index];
+      const currExpression = argNode.expressions[index];
       if (currExpression) {
         if (t.isIdentifier(currExpression)) {
           acc += currExpression.name;
@@ -193,9 +214,17 @@ function extractEventDetails(eventIdNode) {
 
       return acc;
     }, "");
+    argType = "templated_string";
+  } else if (t.isObjectExpression(argNode)) {
+    //TODO process object expressions into structured data - keys and their valueTypes
+    argValue = "object";
+    argType = "object";
+  } else {
+    argValue = UNPARSABLE_INDICATOR;
+    argType = UNPARSABLE_INDICATOR;
   }
 
-  return { eventId };
+  return { argValue, argType };
 }
 
 function extractNameFromMemberExpression(currExpression) {
@@ -241,7 +270,6 @@ async function parseDirectory(directoryPath) {
     if (await isExcludedDir(filePath)) {
       continue;
     }
-
     const fileStat = await stat(filePath);
 
     if (
@@ -321,6 +349,6 @@ async function parseDirectory(directoryPath) {
   );
   fs.writeFileSync(detailedOutputPath, JSON.stringify(eventTriggers, null, 2));
   console.log(
-    `Detailed app events information saved to ${detailedOutputPath} with ${eventTriggers.length} events`
+    `Detailed app events information saved to ${detailedOutputPath} with ${eventTriggers.length} event triggers`
   );
 })();

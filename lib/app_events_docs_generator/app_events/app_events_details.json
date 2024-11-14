@@ -3,1140 +3,2374 @@
     "eventId": "ace:resize",
     "filePath": "/app/assets/javascripts/admin/addon/components/admin-theme-editor.js",
     "lineNumber": 109,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "topic-entrance:show",
     "filePath": "/app/assets/javascripts/discourse/app/components/basic-topic-list.js",
     "lineNumber": 106,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/components/bookmark-list.js",
     "lineNumber": 40,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/components/bookmark-list.js",
     "lineNumber": 78,
+    "args": [
+      {
+        "argValue": "savedData",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "card:show",
     "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 63,
+    "args": [
+      {
+        "argValue": "username",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "target",
+        "argType": "variable",
+        "argPosition": 2
+      },
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-card:show",
     "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 88,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-card:after-show",
     "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 93,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "card:hide",
     "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 263,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:find-similar",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 67,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:div-resizing",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 93,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resized",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 127,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resize-started",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 145,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resize-ended",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 150,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:opened",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 177,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:will-open",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 204,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 495,
+    "args": [
+      {
+        "argValue": "preview",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 593,
+    "args": [
+      {
+        "argValue": "matchingPlaceholder.index",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "replacement",
+        "argType": "variable",
+        "argPosition": 2
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 636,
+    "args": [
+      {
+        "argValue": "match",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "replacement",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 722,
+    "args": [
+      {
+        "argValue": "matchingPlaceholder.index",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "",
+        "argType": "string",
+        "argPosition": 2
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 750,
+    "args": [
+      {
+        "argValue": "[grid]",
+        "argType": "string",
+        "argPosition": 1
+      },
+      {
+        "argValue": "[/grid]",
+        "argType": "string",
+        "argPosition": 2
+      },
+      {
+        "argValue": "grid_surround",
+        "argType": "string",
+        "argPosition": 3
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 4
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:will-close",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 782,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:closed",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
     "lineNumber": 787,
+    "args": [],
     "comments": "need to wait a bit for the \"slide down\" transition of the composer"
   },
   {
     "eventId": "inserted-custom-html:this.name",
     "filePath": "/app/assets/javascripts/discourse/app/components/custom-html.js",
     "lineNumber": 33,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "destroyed-custom-html:this.name",
     "filePath": "/app/assets/javascripts/discourse/app/components/custom-html.js",
     "lineNumber": 40,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "d-editor:preview-click-user-card",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
     "lineNumber": 186,
+    "args": [
+      {
+        "argValue": "event.target",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "d-editor:preview-click-group-card",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
     "lineNumber": 194,
+    "args": [
+      {
+        "argValue": "event.target",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
     "lineNumber": 288,
+    "args": [
+      {
+        "argValue": "cookedElement",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": "trigger all the \"api.decorateCookedElement\""
   },
   {
     "eventId": "keyboard-visibility-change",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-virtual-height.gjs",
     "lineNumber": 87,
+    "args": [
+      {
+        "argValue": "keyboardVisible",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/discourse-banner.js",
     "lineNumber": 51,
+    "args": [
+      {
+        "argValue": "this.element",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:scrolled",
     "filePath": "/app/assets/javascripts/discourse/app/components/discourse-topic.js",
     "lineNumber": 99,
+    "args": [
+      {
+        "argValue": "offset",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": "Trigger a scrolled event"
   },
   {
     "eventId": "topic-entrance:show",
     "filePath": "/app/assets/javascripts/discourse/app/components/featured-topic.js",
     "lineNumber": 13,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "group:leave",
     "filePath": "/app/assets/javascripts/discourse/app/components/group-membership-button.js",
     "lineNumber": 49,
+    "args": [
+      {
+        "argValue": "model",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "group:join",
     "filePath": "/app/assets/javascripts/discourse/app/components/group-membership-button.js",
     "lineNumber": 65,
+    "args": [
+      {
+        "argValue": "group",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic-header:trigger-this.args.type-card",
     "filePath": "/app/assets/javascripts/discourse/app/components/header/topic/participant.gjs",
     "lineNumber": 19,
+    "args": [
+      {
+        "argValue": "this.args.username",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "e1.target",
+        "argType": "property",
+        "argPosition": 2
+      },
+      {
+        "argValue": "e1",
+        "argType": "variable",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/components/invite-panel.js",
     "lineNumber": 340,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/components/invite-panel.js",
     "lineNumber": 353,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:show-topic",
     "filePath": "/app/assets/javascripts/discourse/app/components/modal/convert-to-public-topic.js",
     "lineNumber": 23,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/components/modal/history.js",
     "lineNumber": 190,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/components/search-menu.js",
     "lineNumber": 297,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "sidebar-hamburger-dropdown:rendered",
     "filePath": "/app/assets/javascripts/discourse/app/components/sidebar/hamburger-dropdown.gjs",
     "lineNumber": 26,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "topic-entrance:show",
     "filePath": "/app/assets/javascripts/discourse/app/components/topic-list-item.js",
     "lineNumber": 33,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-menu:tab-click",
     "filePath": "/app/assets/javascripts/discourse/app/components/user-menu/menu.js",
     "lineNumber": 313,
+    "args": [
+      {
+        "argValue": "tab.id",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-menu:rendered",
     "filePath": "/app/assets/javascripts/discourse/app/components/user-menu/menu.js",
     "lineNumber": 319,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/user-stream.js",
     "lineNumber": 50,
+    "args": [
+      {
+        "argValue": "this.element",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/user-stream.js",
     "lineNumber": 149,
+    "args": [
+      {
+        "argValue": "element",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "full-page-search:trigger-search",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/full-page-search.js",
     "lineNumber": 563,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 112,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 296,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:insert-block",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 473,
+    "args": [
+      {
+        "argValue": "quotedText",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:current-post-changed",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 513,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:current-post-scrolled",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 520,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "page:compose-reply",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 672,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:insert-block",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 694,
+    "args": [
+      {
+        "argValue": "quotedText.trim",
+        "argType": "called_function",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 734,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 914,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:jump-to-post",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 965,
+    "args": [
+      {
+        "argValue": "this.get",
+        "argType": "called_function",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:jump-to-post",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1344,
+    "args": [
+      {
+        "argValue": "postId",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1376,
+    "args": [
+      {
+        "argValue": "bookmarkFormData.saveData",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1417,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1734,
+    "args": [
+      {
+        "argValue": "args",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1750,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
     "lineNumber": 1880,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "dom:clean",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/clean-dom-on-route-change.js",
     "lineNumber": 32,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "site-header:force-refresh",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/narrow-desktop.js",
     "lineNumber": 26,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "cta:shown",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/signup-cta.js",
     "lineNumber": 72,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 155,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 163,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      },
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-status:changed",
     "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 227,
+    "args": [
+      {
+        "argValue": "data",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "click-tracked",
     "filePath": "/app/assets/javascripts/discourse/app/lib/click-track.js",
     "lineNumber": 98,
+    "args": [
+      {
+        "argValue": "href",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "d-editor:toolbar-button-clicked",
     "filePath": "/app/assets/javascripts/discourse/app/lib/composer/toolbar.js",
     "lineNumber": 140,
+    "args": [
+      {
+        "argValue": "button",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "desktop-notification-opened",
     "filePath": "/app/assets/javascripts/discourse/app/lib/desktop-notifications.js",
     "lineNumber": 179,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.flagCreatedEvent",
     "filePath": "/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
     "lineNumber": 15,
+    "args": [
+      {
+        "argValue": "flagModal.args.model.flagModel",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "postAction",
+        "argType": "variable",
+        "argPosition": 2
+      },
+      {
+        "argValue": "opts",
+        "argType": "variable",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
     "lineNumber": 26,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "quote-button:quote",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 337,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "quote-button:edit",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 353,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 451,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 518,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 522,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 531,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 538,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 625,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "keyboard:move-selection",
     "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 790,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "page:changed",
     "filePath": "/app/assets/javascripts/discourse/app/lib/page-tracker.js",
     "lineNumber": 41,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME",
     "filePath": "/app/assets/javascripts/discourse/app/lib/plugin-api.gjs",
     "lineNumber": 2356,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/lib/post-bookmark-manager.js",
     "lineNumber": 60,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "push-notification-opened",
     "filePath": "/app/assets/javascripts/discourse/app/lib/push-notifications.js",
     "lineNumber": 77,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.eventPrefix:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
     "lineNumber": 423,
+    "args": [
+      {
+        "argValue": "table",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.eventPrefix:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
     "lineNumber": 477,
+    "args": [
+      {
+        "argValue": "markdown",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/lib/topic-bookmark-manager.js",
     "lineNumber": 57,
+    "args": [
+      {
+        "argValue": "bookmarkFormData.saveData",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "undefined.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 129,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 176,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 283,
+    "args": [
+      {
+        "argValue": "file.id",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 342,
+    "args": [
+      {
+        "argValue": "placeholder",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-started",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 348,
+    "args": [
+      {
+        "argValue": "file.name",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 380,
+    "args": [
+      {
+        "argValue": "undefined.trim",
+        "argType": "called_function",
+        "argPosition": 1
+      },
+      {
+        "argValue": "markdown",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-success",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 388,
+    "args": [
+      {
+        "argValue": "file.name",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "upload",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:all-uploads-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 395,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 415,
+    "args": [
+      {
+        "argValue": "data.uploadPlaceholder",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "",
+        "argType": "string",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 427,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-error",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 448,
+    "args": [
+      {
+        "argValue": "file",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 516,
+    "args": [
+      {
+        "argValue": "placeholderData.uploadPlaceholder",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "placeholderData.processingPlaceholder",
+        "argType": "property",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 525,
+    "args": [
+      {
+        "argValue": "undefined.replace",
+        "argType": "called_function",
+        "argPosition": 1
+      },
+      {
+        "argValue": "placeholderData.processingPlaceholder",
+        "argType": "property",
+        "argPosition": 2
+      }
+    ],
     "comments": "Safari applies user-defined replacements to text inserted programmatically.\nOne of the most common replacements is ... -> …, so we take care of the case\nwhere that transformation has been applied to the original placeholder"
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 536,
+    "args": [
+      {
+        "argValue": "placeholderData.processingPlaceholder",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "placeholderData.uploadPlaceholder",
+        "argType": "property",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 549,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 625,
+    "args": [
+      {
+        "argValue": "this...uploadPlaceholder",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "",
+        "argType": "string",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
     "lineNumber": 794,
+    "args": [
+      {
+        "argValue": "[grid]",
+        "argType": "string",
+        "argPosition": 1
+      },
+      {
+        "argValue": "[/grid]",
+        "argType": "string",
+        "argPosition": 2
+      },
+      {
+        "argValue": "grid_surround",
+        "argType": "string",
+        "argPosition": 3
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 4
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-success",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 249,
+    "args": [
+      {
+        "argValue": "file.name",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "completeResponse",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-success",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 270,
+    "args": [
+      {
+        "argValue": "file.name",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "upload",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 304,
+    "args": [
+      {
+        "argValue": "file.id",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:uploads-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 346,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:in-progress-uploads",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 382,
+    "args": [
+      {
+        "argValue": "this.inProgressUploads",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:all-uploads-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 572,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post:highlight",
     "filePath": "/app/assets/javascripts/discourse/app/lib/url.js",
     "lineNumber": 356,
+    "args": [
+      {
+        "argValue": "closest",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-menu:notification-click",
     "filePath": "/app/assets/javascripts/discourse/app/lib/user-menu/notification-item.js",
     "lineNumber": 85,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 946,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 972,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 1077,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 1089,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 1212,
+    "args": [
+      {
+        "argValue": "createdPost",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "topic:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
     "lineNumber": 1214,
+    "args": [
+      {
+        "argValue": "createdPost",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:filter-replies",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 270,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 284,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:filter-upwards",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 299,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 304,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 438,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post:show-revision",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 1290,
+    "args": [
+      {
+        "argValue": "copy.postNumber",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "copy.revisionNumber",
+        "argType": "property",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
     "lineNumber": 526,
+    "args": [
+      {
+        "argValue": "data",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
     "lineNumber": 530,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
     "lineNumber": 547,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/topic.js",
     "lineNumber": 688,
+    "args": [
+      {
+        "argValue": "undefined",
+        "argType": "undefined",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "do-not-disturb:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1226,
+    "args": [
+      {
+        "argValue": "this.do_not_disturb_until",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-drafts:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1232,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "user-reviewable-count:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1237,
+    "args": [
+      {
+        "argValue": "count",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "page:topic-loaded",
     "filePath": "/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
     "lineNumber": 93,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post:highlight",
     "filePath": "/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
     "lineNumber": 98,
+    "args": [
+      {
+        "argValue": "closest",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": "Highlight our post after the next render"
   },
   {
     "eventId": "header:hide-topic",
     "filePath": "/app/assets/javascripts/discourse/app/routes/topic.js",
     "lineNumber": 393,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/routes/topic.js",
     "lineNumber": 418,
+    "args": [
+      {
+        "argValue": "model",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "count-updated:user.username_lower:key",
     "filePath": "/app/assets/javascripts/discourse/app/routes/user.js",
     "lineNumber": 102,
+    "args": [
+      {
+        "argValue": "value",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:cancel-upload",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 644,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:toolbar-popup-menu-button-clicked",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 673,
+    "args": [
+      {
+        "argValue": "menuItem",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": "menuItem is an object with keys name & action like so: { name: \"toggle-invisible, action: \"toggleInvisible\" }\n`action` value can either be a string (to lookup action by) or a function to call"
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 765,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 775,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "emoji-picker:close",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 898,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:close",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 903,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 954,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 978,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 987,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:saved",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1181,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1194,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:edited-post",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1200,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1201,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1205,
+    "args": [
+      {
+        "argValue": "composer.topic",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1208,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:created-post",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1212,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "post:highlight",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1213,
+    "args": [
+      {
+        "argValue": "result.payload.post_number",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "options",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:posted",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1278,
+    "args": [
+      {
+        "argValue": "staged",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:typed-reply",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1295,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:open",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1443,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "draft:destroyed",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1622,
+    "args": [
+      {
+        "argValue": "key",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1691,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1699,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
     "lineNumber": 1712,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "discourse:focus-changed",
     "filePath": "/app/assets/javascripts/discourse/app/services/document-title.js",
     "lineNumber": 40,
+    "args": [
+      {
+        "argValue": "session.hasFocus",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.OPENED",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 73,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.ITEM_WILL_CHANGE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 81,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.ITEM_DID_CHANGE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 88,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.CLOSED",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 105,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.OPEN",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 125,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.CLOSE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
     "lineNumber": 138,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "topic:timings-sent",
     "filePath": "/app/assets/javascripts/discourse/app/services/screen-track.js",
     "lineNumber": 209,
+    "args": [
+      {
+        "argValue": "data",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/services/search.js",
     "lineNumber": 42,
+    "args": [
+      {
+        "argValue": "document.activeElement.href",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/app/assets/javascripts/discourse/app/services/search.js",
     "lineNumber": 49,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:gap-expanded",
     "filePath": "/app/assets/javascripts/discourse/app/widgets/post-gap.js",
     "lineNumber": 32,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "post-stream:filter-show-all",
     "filePath": "/app/assets/javascripts/discourse/app/widgets/post-stream.js",
     "lineNumber": 186,
+    "args": [
+      {
+        "argValue": "this.attrs.streamFilters",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "page:like-toggled",
     "filePath": "/app/assets/javascripts/discourse/app/widgets/post.js",
     "lineNumber": 1138,
+    "args": [
+      {
+        "argValue": "post",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "likeAction",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "card:close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat/direct-message-button.gjs",
     "lineNumber": 32,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "chat:rerender-header",
     "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.js",
     "lineNumber": 91,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.js",
     "lineNumber": 208,
+    "args": [
+      {
+        "argValue": "this.chatStateManager.isDrawerExpanded",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "chat:modify-selection",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 60,
+    "args": [
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "chat:open-insert-link-modal",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 72,
+    "args": [
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 98,
+    "args": [
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "bookmarks:changed",
     "filePath": "/plugins/chat/assets/javascripts/discourse/lib/chat-message-interactor.js",
     "lineNumber": 343,
+    "args": [
+      {
+        "argValue": "bookmarkFormData.saveData",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "chat:open-url",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
     "lineNumber": 51,
+    "args": [
+      {
+        "argValue": "url",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
     "lineNumber": 55,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "chat:refresh-channel-members",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-subscriptions-manager.js",
     "lineNumber": 469,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-tracking-state-manager.js",
     "lineNumber": 110,
+    "args": [],
     "comments": null
   },
   {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat.js",
     "lineNumber": 404,
+    "args": [
+      {
+        "argValue": "this.chatStateManager.isDrawerExpanded",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "discourse-reactions:reaction-toggled",
     "filePath": "/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js",
     "lineNumber": 23,
+    "args": [
+      {
+        "argValue": "object",
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
     "lineNumber": 189,
+    "args": [
+      {
+        "argValue": "poll1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "this.post",
+        "argType": "property",
+        "argPosition": 2
+      },
+      {
+        "argValue": "this.vote",
+        "argType": "property",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
     "lineNumber": 443,
+    "args": [
+      {
+        "argValue": "poll1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "this.post",
+        "argType": "property",
+        "argPosition": 2
+      },
+      {
+        "argValue": "this.vote",
+        "argType": "property",
+        "argPosition": 3
+      }
+    ],
     "comments": null
   }
 ]
