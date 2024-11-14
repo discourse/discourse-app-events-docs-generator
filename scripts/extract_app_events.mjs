@@ -6,7 +6,9 @@ import _traverse from "@babel/traverse";
 import * as t from "@babel/types";
 import { promisify } from "util";
 import { Preprocessor } from "content-tag";
+import "dotenv/config";
 
+const discourseDir = process.env.DISCOURSE_CORE;
 const traverse = _traverse.default;
 const readdir = promisify(fs.readdir);
 const readFile = promisify(fs.readFile);
@@ -25,7 +27,6 @@ const EXCLUDED_DIR_PATTERNS = [
   "/discourse/plugins/discourse-deprecation-collector/",
 ];
 const filesToDebug = [];
-let pathToRemove;
 
 async function isExcludedDir(filePath) {
   return EXCLUDED_DIR_PATTERNS.some((pattern) => filePath.includes(pattern));
@@ -34,7 +35,7 @@ async function isExcludedDir(filePath) {
 async function parseFile(filePath) {
   let hasAppEventsTrigger = { result: false };
   let code = await readFile(filePath, "utf8");
-  const relativeFilePath = filePath.replace(pathToRemove, "");
+  const relativeFilePath = filePath.replace(discourseDir, "");
 
   try {
     if (filePath.endsWith(".gjs")) {
@@ -270,14 +271,14 @@ async function parseDirectory(directoryPath) {
 
 // Main script
 (async () => {
-  if (process.argv.length < 3) {
-    console.log("Usage: node extract_app_events.mjs <CODEBASE_DIR>");
+  if (process.argv.length != 2) {
+    console.log(
+      "Usage: node extract_app_events.mjs, Remember to define DISCOURSE_CORE in an .env file"
+    );
     process.exit(1);
   }
 
-  const directoryPath = process.argv[2];
-  pathToRemove = directoryPath;
-  const eventTriggers = await parseDirectory(directoryPath);
+  const eventTriggers = await parseDirectory(discourseDir);
 
   if (filesToDebug.length > 0) {
     const filesToDebugFilePath = path.join(
