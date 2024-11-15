@@ -217,7 +217,7 @@ function extractArgument(argNode) {
     argType = "templated_string";
   } else if (t.isObjectExpression(argNode)) {
     //TODO process object expressions into structured data - keys and their valueTypes
-    argValue = "object";
+    argValue = extractDetailsFromObjectExpression(argNode.properties);
     argType = "object";
   } else {
     argValue = UNPARSABLE_INDICATOR;
@@ -225,6 +225,34 @@ function extractArgument(argNode) {
   }
 
   return { argValue, argType };
+}
+
+function extractDetailsFromObjectExpression(props) {
+  return props.reduce((result, prop) => {
+    const key =  prop.key.name || prop.key.value;
+
+    let valueType;
+    if (t.isStringLiteral(prop.value)) {
+      valueType = "string";
+    } else if (t.isIdentifier(prop.value)) {
+      valueType = "variable";
+    } else if (t.isBooleanLiteral(prop.value)) {
+      valueType = "boolean";
+    } else if (t.isNumericLiteral(prop.value)) {
+      valueType = "integer";
+    } else if (t.isObjectExpression(prop.value)) {
+      valueType = "object";
+    } else if (t.isCallExpression(prop.value)) {
+      valueType = "called_function";
+    } else if (t.isMemberExpression(prop.value)) {
+      valueType = "property";
+    } else {
+      valueType = UNPARSABLE_INDICATOR;
+    }
+
+    result.push({ key, valueType });
+    return result
+  }, []);
 }
 
 function extractNameFromMemberExpression(currExpression) {

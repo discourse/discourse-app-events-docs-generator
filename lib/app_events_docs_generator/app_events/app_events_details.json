@@ -12,7 +12,16 @@
     "lineNumber": 106,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "topic",
+            "valueType": "variable"
+          },
+          {
+            "key": "position",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -84,7 +93,12 @@
     "lineNumber": 88,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "username",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -97,7 +111,12 @@
     "lineNumber": 93,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "user",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -189,7 +208,16 @@
         "argPosition": 2
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "regex",
+            "valueType": "variable"
+          },
+          {
+            "key": "index",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 3
       }
@@ -230,7 +258,16 @@
         "argPosition": 2
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "regex",
+            "valueType": "variable"
+          },
+          {
+            "key": "index",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 3
       }
@@ -258,7 +295,12 @@
         "argPosition": 3
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "useBlockMode",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 4
       }
@@ -387,7 +429,16 @@
     "lineNumber": 13,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "topic",
+            "valueType": "property"
+          },
+          {
+            "key": "position",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -456,7 +507,12 @@
     "lineNumber": 353,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "force",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -482,7 +538,12 @@
     "lineNumber": 190,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -495,7 +556,12 @@
     "lineNumber": 297,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "force",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -515,7 +581,16 @@
     "lineNumber": 33,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "topic",
+            "valueType": "property"
+          },
+          {
+            "key": "position",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -581,7 +656,12 @@
     "lineNumber": 112,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "force",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -594,7 +674,12 @@
     "lineNumber": 296,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "force",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -620,7 +705,12 @@
     "lineNumber": 513,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "post",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -633,7 +723,16 @@
     "lineNumber": 520,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "postIndex",
+            "valueType": "property"
+          },
+          {
+            "key": "percent",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -679,7 +778,12 @@
     "lineNumber": 914,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -736,7 +840,12 @@
     "lineNumber": 1417,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -775,7 +884,12 @@
     "lineNumber": 1880,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -873,7 +987,12 @@
     "lineNumber": 179,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -909,7 +1028,12 @@
     "lineNumber": 26,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -936,7 +1060,16 @@
     "lineNumber": 451,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -949,7 +1082,12 @@
     "lineNumber": 518,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -962,7 +1100,16 @@
     "lineNumber": 522,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -975,7 +1122,16 @@
     "lineNumber": 531,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -988,7 +1144,16 @@
     "lineNumber": 538,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1001,7 +1166,12 @@
     "lineNumber": 625,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1014,7 +1184,16 @@
     "lineNumber": 790,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "articles",
+            "valueType": "variable"
+          },
+          {
+            "key": "selectedArticle",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1027,7 +1206,24 @@
     "lineNumber": 41,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "variable"
+          },
+          {
+            "key": "title",
+            "valueType": "called_function"
+          },
+          {
+            "key": "currentRouteName",
+            "valueType": "property"
+          },
+          {
+            "key": "replacedOnlyQueryParams",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1047,7 +1243,12 @@
     "lineNumber": 60,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1060,7 +1261,12 @@
     "lineNumber": 77,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1345,7 +1551,12 @@
         "argPosition": 3
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "useBlockMode",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 4
       }
@@ -1447,7 +1658,16 @@
     "lineNumber": 85,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "notification",
+            "valueType": "property"
+          },
+          {
+            "key": "href",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1486,7 +1706,12 @@
     "lineNumber": 1077,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1499,7 +1724,12 @@
     "lineNumber": 1089,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1543,7 +1773,20 @@
     "lineNumber": 270,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "topic_id",
+            "valueType": "called_function"
+          },
+          {
+            "key": "post_number",
+            "valueType": "variable"
+          },
+          {
+            "key": "post_id",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1563,7 +1806,16 @@
     "lineNumber": 299,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "topic_id",
+            "valueType": "called_function"
+          },
+          {
+            "key": "post_id",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1613,7 +1865,16 @@
         "argPosition": 1
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "target",
+            "valueType": "string"
+          },
+          {
+            "key": "targetId",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 2
       }
@@ -1626,7 +1887,12 @@
     "lineNumber": 530,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1644,7 +1910,16 @@
         "argPosition": 1
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "target",
+            "valueType": "string"
+          },
+          {
+            "key": "targetId",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 2
       }
@@ -1787,7 +2062,20 @@
     "lineNumber": 765,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "extraClass",
+            "valueType": "string"
+          },
+          {
+            "key": "templateName",
+            "valueType": "string"
+          },
+          {
+            "key": "body",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1800,7 +2088,20 @@
     "lineNumber": 775,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "extraClass",
+            "valueType": "string"
+          },
+          {
+            "key": "templateName",
+            "valueType": "string"
+          },
+          {
+            "key": "body",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1827,7 +2128,20 @@
     "lineNumber": 954,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "extraClass",
+            "valueType": "string"
+          },
+          {
+            "key": "templateName",
+            "valueType": "string"
+          },
+          {
+            "key": "body",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1840,7 +2154,20 @@
     "lineNumber": 978,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "extraClass",
+            "valueType": "string"
+          },
+          {
+            "key": "templateName",
+            "valueType": "string"
+          },
+          {
+            "key": "body",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1853,7 +2180,20 @@
     "lineNumber": 987,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "extraClass",
+            "valueType": "string"
+          },
+          {
+            "key": "templateName",
+            "valueType": "string"
+          },
+          {
+            "key": "body",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1887,7 +2227,12 @@
     "lineNumber": 1201,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "id",
+            "valueType": "called_function"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -1965,7 +2310,12 @@
     "lineNumber": 1443,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "model",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2025,7 +2375,16 @@
     "lineNumber": 73,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "items",
+            "valueType": "variable"
+          },
+          {
+            "key": "currentItem",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2038,7 +2397,12 @@
     "lineNumber": 81,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "currentItem",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2051,7 +2415,12 @@
     "lineNumber": 88,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "currentItem",
+            "valueType": "variable"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2071,7 +2440,24 @@
     "lineNumber": 125,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "items",
+            "valueType": "variable"
+          },
+          {
+            "key": "startingIndex",
+            "valueType": "variable"
+          },
+          {
+            "key": "callbacks",
+            "valueType": "object"
+          },
+          {
+            "key": "options",
+            "valueType": "object"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2109,7 +2495,12 @@
         "argPosition": 1
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "ensureSpace",
+            "valueType": "boolean"
+          }
+        ],
         "argType": "object",
         "argPosition": 2
       }
@@ -2122,7 +2513,12 @@
     "lineNumber": 49,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2135,7 +2531,12 @@
     "lineNumber": 32,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "post_id",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
@@ -2211,7 +2612,16 @@
         "argPosition": 1
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "variable"
+          },
+          {
+            "key": "context",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 2
       }
@@ -2229,7 +2639,12 @@
         "argPosition": 1
       },
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "context",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 2
       }
@@ -2320,7 +2735,16 @@
     "lineNumber": 23,
     "args": [
       {
-        "argValue": "object",
+        "argValue": [
+          {
+            "key": "post",
+            "valueType": "variable"
+          },
+          {
+            "key": "reaction",
+            "valueType": "property"
+          }
+        ],
         "argType": "object",
         "argPosition": 1
       }
