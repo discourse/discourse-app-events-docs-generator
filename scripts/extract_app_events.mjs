@@ -1,12 +1,12 @@
-import fs from "fs";
-import path from "path";
-import yaml from "js-yaml";
+import "dotenv/config";
 import parser from "@babel/parser";
 import _traverse from "@babel/traverse";
 import * as t from "@babel/types";
-import { promisify } from "util";
 import { Preprocessor } from "content-tag";
-import "dotenv/config";
+import fs from "fs";
+import yaml from "js-yaml";
+import path from "path";
+import { promisify } from "util";
 
 const discourseDir = process.env.DISCOURSE_CORE;
 const traverse = _traverse.default;
@@ -26,7 +26,7 @@ const EXCLUDED_DIR_PATTERNS = [
   "/discourse/plugins/chat/test",
   "/discourse/plugins/discourse-deprecation-collector/",
 ];
-const UNPARSABLE_INDICATOR = 'undefined';
+const UNPARSABLE_INDICATOR = "undefined";
 const filesToDebug = [];
 
 async function isExcludedDir(filePath) {
@@ -104,7 +104,7 @@ function extractAppEvents(path, filePath, eventTriggers, hasAppEventsTrigger) {
       const args = node.arguments.slice(1).map((arg, index) => {
         return {
           ...extractArgument(arg),
-          argPosition: index + 1
+          argPosition: index + 1,
         };
       });
 
@@ -152,7 +152,7 @@ function extractAppEventsFromOptionalExpressions(
       const args = node.arguments.slice(1).map((arg, index) => {
         return {
           ...extractArgument(arg),
-          argPosition: index + 1
+          argPosition: index + 1,
         };
       });
 
@@ -175,20 +175,31 @@ function extractArgument(argNode) {
   if (t.isStringLiteral(argNode)) {
     argValue = argNode.value;
     argType = "string";
+  } else if (t.isNumericLiteral(argNode)){
+    argValue = argNode.value;
+    argType = "integer";
   } else if (t.isIdentifier(argNode)) {
     argValue = argNode.name;
     argType = "variable";
   } else if (t.isMemberExpression(argNode)) {
     argValue = extractNameFromMemberExpression(argNode);
     argType = "property";
+  } else if (t.isThisExpression(argNode)) {
+    argValue = "this";
+    argType = "this";
   } else if (t.isCallExpression(argNode)) {
     let calleeObjectName;
-    if (argNode.callee.object) {
-      calleeObjectName = t.isThisExpression(argNode.callee.object)
-        ? "this"
-        : argNode.callee.object.name;
+    // TODO: possibly some duplication here? quite nested code
+    if (t.isMemberExpression(argNode.callee)) {
+      argValue = extractNameFromMemberExpression(argNode.callee);
+    } else {
+      if (argNode.callee.object) {
+        calleeObjectName = t.isThisExpression(argNode.callee.object)
+          ? "this"
+          : argNode.callee.object.name;
+      }
+      argValue = `${calleeObjectName}.${argNode.callee.property.name}`;
     }
-    argValue = `${calleeObjectName}.${argNode.callee.property.name}`;
     argType = "called_function";
   } else if (t.isTemplateLiteral(argNode)) {
     argValue = argNode.quasis.reduce((acc, quasi, index) => {
@@ -216,9 +227,14 @@ function extractArgument(argNode) {
     }, "");
     argType = "templated_string";
   } else if (t.isObjectExpression(argNode)) {
-    //TODO process object expressions into structured data - keys and their valueTypes
     argValue = extractDetailsFromObjectExpression(argNode.properties);
     argType = "object";
+  } else if (t.isSpreadElement(argNode)) {
+    argValue = argNode.argument.name;
+    argType = "spread_element";
+  } else if (t.isNullLiteral(argNode)) {
+    argValue = null;
+    argType = "null";
   } else {
     argValue = UNPARSABLE_INDICATOR;
     argType = UNPARSABLE_INDICATOR;
@@ -229,7 +245,7 @@ function extractArgument(argNode) {
 
 function extractDetailsFromObjectExpression(props) {
   return props.reduce((result, prop) => {
-    const key =  prop.key.name || prop.key.value;
+    const key = prop.key.name || prop.key.value;
 
     let valueType;
     if (t.isStringLiteral(prop.value)) {
@@ -251,7 +267,7 @@ function extractDetailsFromObjectExpression(props) {
     }
 
     result.push({ key, valueType });
-    return result
+    return result;
   }, []);
 }
 
@@ -367,7 +383,9 @@ async function parseDirectory(directoryPath) {
     `${allEventIds.length} Extracted event IDs saved to ${eventIdsFilePath}`
   );
 
-  // Output detailed information
+  // Event triggers are saved without any further processing to group by filePath
+  // or by event ID intentionally, as this maintains flexibility in how we can
+  // use the raw data
   const detailedOutputPath = path.join(
     ".",
     "lib",

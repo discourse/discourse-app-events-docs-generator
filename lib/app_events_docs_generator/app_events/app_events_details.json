@@ -34,8 +34,8 @@
     "lineNumber": 40,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": null,
+        "argType": "null",
         "argPosition": 1
       },
       {
@@ -930,13 +930,13 @@
     "lineNumber": 163,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": null,
+        "argType": "null",
         "argPosition": 1
       },
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": 5000,
+        "argType": "integer",
         "argPosition": 2
       }
     ],
@@ -1310,7 +1310,7 @@
         "argPosition": 1
       },
       {
-        "argValue": "undefined.attachedTo",
+        "argValue": "this.bookmarkModel.attachedTo",
         "argType": "called_function",
         "argPosition": 2
       }
@@ -1376,7 +1376,7 @@
     "lineNumber": 380,
     "args": [
       {
-        "argValue": "undefined.trim",
+        "argValue": "this...uploadPlaceholder.trim",
         "argType": "called_function",
         "argPosition": 1
       },
@@ -1475,7 +1475,7 @@
     "lineNumber": 525,
     "args": [
       {
-        "argValue": "undefined.replace",
+        "argValue": "placeholderData.uploadPlaceholder.replace",
         "argType": "called_function",
         "argPosition": 1
       },
@@ -1680,8 +1680,8 @@
     "lineNumber": 946,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": "this",
+        "argType": "this",
         "argPosition": 1
       }
     ],
@@ -1693,8 +1693,8 @@
     "lineNumber": 972,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": "this",
+        "argType": "this",
         "argPosition": 1
       }
     ],
@@ -1760,8 +1760,8 @@
         "argPosition": 1
       },
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": "this",
+        "argType": "this",
         "argPosition": 2
       }
     ],
@@ -1905,8 +1905,8 @@
     "lineNumber": 547,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": null,
+        "argType": "null",
         "argPosition": 1
       },
       {
@@ -1932,8 +1932,8 @@
     "lineNumber": 688,
     "args": [
       {
-        "argValue": "undefined",
-        "argType": "undefined",
+        "argValue": null,
+        "argType": "null",
         "argPosition": 1
       },
       {
@@ -2685,7 +2685,7 @@
   {
     "eventId": "chat:open-url",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
-    "lineNumber": 51,
+    "lineNumber": 48,
     "args": [
       {
         "argValue": "url",
@@ -2698,7 +2698,7 @@
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
-    "lineNumber": 55,
+    "lineNumber": 53,
     "args": [],
     "comments": null
   },
