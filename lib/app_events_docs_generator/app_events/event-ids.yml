@@ -12,6 +12,7 @@ app_event_ids:
 - card:close
 - card:hide
 - card:show
+- chat:message_interaction
 - chat:modify-selection
 - chat:open-insert-link-modal
 - chat:open-url

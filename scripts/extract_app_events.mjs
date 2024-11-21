@@ -233,7 +233,7 @@ function extractArgument(argNode) {
     argValue = argNode.argument.name;
     argType = "spread_element";
   } else if (t.isNullLiteral(argNode)) {
-    argValue = null;
+    argValue = "null";
     argType = "null";
   } else {
     argValue = UNPARSABLE_INDICATOR;

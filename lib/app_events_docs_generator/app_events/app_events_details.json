@@ -34,7 +34,7 @@
     "lineNumber": 40,
     "args": [
       {
-        "argValue": null,
+        "argValue": "null",
         "argType": "null",
         "argPosition": 1
       },
@@ -930,7 +930,7 @@
     "lineNumber": 163,
     "args": [
       {
-        "argValue": null,
+        "argValue": "null",
         "argType": "null",
         "argPosition": 1
       },
@@ -1454,7 +1454,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 516,
+    "lineNumber": 513,
     "args": [
       {
         "argValue": "placeholderData.uploadPlaceholder",
@@ -1472,7 +1472,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 525,
+    "lineNumber": 522,
     "args": [
       {
         "argValue": "placeholderData.uploadPlaceholder.replace",
@@ -1490,7 +1490,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 536,
+    "lineNumber": 533,
     "args": [
       {
         "argValue": "placeholderData.processingPlaceholder",
@@ -1508,14 +1508,14 @@
   {
     "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 549,
+    "lineNumber": 546,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 625,
+    "lineNumber": 622,
     "args": [
       {
         "argValue": "this...uploadPlaceholder",
@@ -1533,7 +1533,7 @@
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 794,
+    "lineNumber": 791,
     "args": [
       {
         "argValue": "[grid]",
@@ -1677,7 +1677,7 @@
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 946,
+    "lineNumber": 944,
     "args": [
       {
         "argValue": "this",
@@ -1690,7 +1690,7 @@
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 972,
+    "lineNumber": 970,
     "args": [
       {
         "argValue": "this",
@@ -1703,7 +1703,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1077,
+    "lineNumber": 1075,
     "args": [
       {
         "argValue": [
@@ -1721,7 +1721,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1089,
+    "lineNumber": 1087,
     "args": [
       {
         "argValue": [
@@ -1739,7 +1739,7 @@
   {
     "eventId": "post:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1212,
+    "lineNumber": 1210,
     "args": [
       {
         "argValue": "createdPost",
@@ -1752,7 +1752,7 @@
   {
     "eventId": "topic:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1214,
+    "lineNumber": 1212,
     "args": [
       {
         "argValue": "createdPost",
@@ -1905,7 +1905,7 @@
     "lineNumber": 547,
     "args": [
       {
-        "argValue": null,
+        "argValue": "null",
         "argType": "null",
         "argPosition": 1
       },
@@ -1932,7 +1932,7 @@
     "lineNumber": 688,
     "args": [
       {
-        "argValue": null,
+        "argValue": "null",
         "argType": "null",
         "argPosition": 1
       },
@@ -2372,7 +2372,7 @@
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.OPENED",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 73,
+    "lineNumber": 77,
     "args": [
       {
         "argValue": [
@@ -2394,7 +2394,7 @@
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.ITEM_WILL_CHANGE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 81,
+    "lineNumber": 85,
     "args": [
       {
         "argValue": [
@@ -2412,7 +2412,7 @@
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.ITEM_DID_CHANGE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 88,
+    "lineNumber": 92,
     "args": [
       {
         "argValue": [
@@ -2430,14 +2430,14 @@
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.CLOSED",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 105,
+    "lineNumber": 109,
     "args": [],
     "comments": null
   },
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.OPEN",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 125,
+    "lineNumber": 129,
     "args": [
       {
         "argValue": [
@@ -2467,7 +2467,7 @@
   {
     "eventId": "LIGHTBOX_APP_EVENT_NAMES.CLOSE",
     "filePath": "/app/assets/javascripts/discourse/app/services/lightbox.js",
-    "lineNumber": 138,
+    "lineNumber": 142,
     "args": [],
     "comments": null
   },
@@ -2602,9 +2602,22 @@
     "comments": null
   },
   {
+    "eventId": "chat:message_interaction",
+    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-message/blocks/index.gjs",
+    "lineNumber": 18,
+    "args": [
+      {
+        "argValue": "result1.interaction",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "chat:modify-selection",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 60,
+    "lineNumber": 72,
     "args": [
       {
         "argValue": "event",
@@ -2631,7 +2644,7 @@
   {
     "eventId": "chat:open-insert-link-modal",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 72,
+    "lineNumber": 84,
     "args": [
       {
         "argValue": "event",
@@ -2654,7 +2667,7 @@
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 98,
+    "lineNumber": 110,
     "args": [
       {
         "argValue": "event",
@@ -2719,7 +2732,7 @@
   {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat.js",
-    "lineNumber": 404,
+    "lineNumber": 455,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2754,7 +2767,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 189,
+    "lineNumber": 188,
     "args": [
       {
         "argValue": "poll1",
@@ -2777,7 +2790,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 443,
+    "lineNumber": 442,
     "args": [
       {
         "argValue": "poll1",
