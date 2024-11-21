@@ -122,32 +122,32 @@ function consolidateAppEventCalls(appEventCalls) {
   // use argPosition as key as obj arg have no string argValue
   let argCountMap = {};
 
-  // iterate through and take the most verbose arg for each position
-  // also add to a countMap { [argPosition]: count }.merge { ["objectArg${argPosition}.${nestedArg.key}"]: count }
   consolidatedAppEvent.args = appEventCalls.reduce((result, appEvent) => {
     appEvent.args.forEach((arg) => {
       const position = arg.argPosition;
       const existingArg = result[position];
-
-      if (existingArg && existingArg.argValue.length < arg.argValue.length) {
+      const existingArgLength = existingArg ? existingArg.argValue.length : 0;
+      if (arg.argValue.length > existingArgLength) {
         result[position] = { ...arg };
         //TODO: also see if we should be considering descriptions and nestedArgs
       }
 
       // Add to count map that will be used to determine isAlwaysPresent later for the arg
-      argCountMap[position] += 1;
+      argCountMap[position] ||= 0;
+      argCountMap[position] ++;
 
       if (arg.argType === "object") {
         arg.argValue.forEach((nestedArg) => {
           const key = `objectArg${position}.${nestedArg.key}`;
-          argCountMap[key] += 1;
+          // argCountMap[key] += 1;
+          argCountMap[key] ||= 0;
+          argCountMap[key] ++;
         });
       }
     });
     return result;
   }, []);
 
-  // only push if arg
   consolidatedAppEvent.args.forEach((arg) => {
     if (arg.argType === "object") {
       arg.argValue.forEach((nestedArg) => {
