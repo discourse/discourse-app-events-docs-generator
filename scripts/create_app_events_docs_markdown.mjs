@@ -6,6 +6,7 @@ import { markdownTable } from "markdown-table";
 const discourseGithubRepoBase =
   "https://github.com/discourse/discourse/blob/main";
 const emptyValuePlaceholder = "-";
+const miscEventGroup = "other events";
 
 function extractEventGroup(eventId) {
   if (eventId.startsWith("LIGHTBOX")) {
@@ -13,7 +14,7 @@ function extractEventGroup(eventId) {
   } else if (eventId.startsWith("this.composerEventPrefix")) {
     return "composer";
   } else if (eventId.split(":").length === 1) {
-    return "other events";
+    return miscEventGroup;
   }
   return eventId.split(":")[0];
 }
@@ -29,6 +30,7 @@ function createDocumentationForEventGroup(eventGroup, details) {
   return (
     markdown +
     Object.entries(detailsByEventId)
+      .sort(([a], [b]) => a.localeCompare(b))
       .map(([eventId, appEvents]) => {
         return createDocumentationForAppEvent(eventId, appEvents);
       })
@@ -134,14 +136,14 @@ function consolidateAppEventCalls(appEventCalls) {
 
       // Add to count map that will be used to determine isAlwaysPresent later for the arg
       argCountMap[position] ||= 0;
-      argCountMap[position] ++;
+      argCountMap[position]++;
 
       if (arg.argType === "object") {
         arg.argValue.forEach((nestedArg) => {
           const key = `objectArg${position}.${nestedArg.key}`;
           // argCountMap[key] += 1;
           argCountMap[key] ||= 0;
-          argCountMap[key] ++;
+          argCountMap[key]++;
         });
       }
     });
@@ -262,6 +264,14 @@ function createDetailsDocumentation(appEvent, headingLevel = 5) {
   }, {});
 
   const docs = Object.keys(groupedByEventGroup)
+    .sort((a, b) => {
+      if (a === miscEventGroup) {
+        return 1;
+      } else if (b === miscEventGroup) {
+        return -1;
+      }
+      return a.localeCompare(b);
+    })
     .map((eventGroup) => {
       return createDocumentationForEventGroup(
         eventGroup,
