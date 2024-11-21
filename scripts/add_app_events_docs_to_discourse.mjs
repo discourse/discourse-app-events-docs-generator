@@ -14,18 +14,21 @@ function updateFileWithAppEventDocs(filePath, appEventsDetails) {
   appEventsDetails.forEach((details) => {
     const { lineNumber } = details;
     // lines is 0-indexed while lineNumber refers to file line number which is 1-indexed
-    const startPos =  lineNumber - 1;
-    const indentation = lines[startPos].length - lines[startPos].trimStart().length;
+    const startPos = lineNumber - 1;
+    const indentation =
+      lines[startPos].length - lines[startPos].trimStart().length;
     const docString = createDocumentation(details, indentation); // TODO: this should be a separate script
     lines.splice(startPos, 0, docString);
   });
 
-  fs.writeFileSync(filePath, lines.join('\n'), 'utf8');
+  fs.writeFileSync(filePath, lines.join("\n"), "utf8");
 }
 
-function createDocumentation(details, indentation=0) {
-  const { eventId, args, comments } = details;
-  if (!eventId && !comments && args.length === 0) { return null; }
+function createDocumentation(details, indentation = 0) {
+  const { eventId, args, description } = details;
+  if (!eventId && !description && args.length === 0) {
+    return null;
+  }
 
   const createArgDoc = (arg) => {
     const argTemplate = (argName, argType, argDesc) => {
@@ -33,15 +36,21 @@ function createDocumentation(details, indentation=0) {
       return ` * @arg {${argType}} ${argName}${templatedDesc}`;
     };
 
-    if (arg.argType === 'object') {
+    if (arg.argType === "object") {
       const objectArgName = `objectArg${arg.argPosition}`;
       const initialObjDoc = ` * @arg {object} ${objectArgName}`;
       return [
         initialObjDoc,
         ...arg.argValue
-          .map((nestedArg) => argTemplate(`${objectArgName}.${nestedArg.key}`, nestedArg.valueType, nestedArg.description))
-          .map((part) => `${' '.repeat(indentation)}${part}`)
-      ].join('\n');
+          .map((nestedArg) =>
+            argTemplate(
+              `${objectArgName}.${nestedArg.key}`,
+              nestedArg.valueType,
+              nestedArg.description
+            )
+          )
+          .map((part) => `${" ".repeat(indentation)}${part}`),
+      ].join("\n");
     }
 
     return argTemplate(arg.argValue, arg.argType, arg.description);
@@ -50,18 +59,19 @@ function createDocumentation(details, indentation=0) {
   const argsStrings = args
     .sort((a, b) => a.argPosition - b.argPosition)
     .map((arg) => createArgDoc(arg));
+  const descString = description ? ` * ${description}\n *` : ` *`;
 
   return [
     `/**`,
     ` * ${eventId} appEvent`,
-    ` *`,
+    descString,
     ` * @event ${eventId}`,
     ...argsStrings,
-    ` */`
-  ].map((part) => `${' '.repeat(indentation)}${part}`)
-  .join('\n');
+    ` */`,
+  ]
+    .map((part) => `${" ".repeat(indentation)}${part}`)
+    .join("\n");
 }
-
 
 (async () => {
   if (process.argv.length != 2) {
@@ -70,7 +80,6 @@ function createDocumentation(details, indentation=0) {
     );
     process.exit(1);
   }
-
 
   const appEventsDetailsFilePath = path.join(
     ".",
