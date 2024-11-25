@@ -5,4 +5,6 @@ AppEventsDocsGenerator::Engine.routes.draw do
   # define routes here
 end
 
-Discourse::Application.routes.draw { mount ::AppEventsDocsGenerator::Engine, at: "app-events-docs-generator" }
+Discourse::Application.routes.draw do
+  mount ::AppEventsDocsGenerator::Engine, at: "app-events-docs-generator"
+end
