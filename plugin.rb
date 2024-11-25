@@ -10,11 +10,11 @@
 
 enabled_site_setting :plugin_name_enabled
 
-module ::MyPluginModule
-  PLUGIN_NAME = "discourse-plugin-name"
+module ::AppEventsDocsGenerator
+  PLUGIN_NAME = "discourse-app-events-docs-generator"
 end
 
-require_relative "lib/my_plugin_module/engine"
+require_relative "lib/app_events_docs_generator/engine"
 
 after_initialize do
   # Code which should run after Rails has finished booting
