@@ -101,9 +101,13 @@ function createDocumentation(details, indentation = 0) {
   }, {});
 
   Object.keys(groupedByFilePath).forEach((filePath) => {
-    updateFileWithAppEventDocs(
-      path.join(discourseDir, filePath),
-      groupedByFilePath[filePath]
-    );
+    console.log("Trying to update file: ", filePath);
+    if (filePath === "/app/assets/javascripts/discourse/app/components/composer-editor.js") {
+      console.log("Updating file: ", filePath);
+      updateFileWithAppEventDocs(
+        path.join(discourseDir, filePath),
+        groupedByFilePath[filePath]
+      );
+    }
   });
 })();
