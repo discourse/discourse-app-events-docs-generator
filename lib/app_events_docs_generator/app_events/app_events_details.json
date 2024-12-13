@@ -175,14 +175,14 @@
   {
     "eventId": "this.composerEventPrefix:will-open",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 210,
+    "lineNumber": 197,
     "args": [],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 501,
+    "lineNumber": 513,
     "args": [
       {
         "argValue": "preview",
@@ -195,7 +195,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 600,
+    "lineNumber": 612,
     "args": [
       {
         "argValue": "matchingPlaceholder.index",
@@ -227,7 +227,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 644,
+    "lineNumber": 656,
     "args": [
       {
         "argValue": "match",
@@ -245,7 +245,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 731,
+    "lineNumber": 743,
     "args": [
       {
         "argValue": "matchingPlaceholder.index",
@@ -277,7 +277,7 @@
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 759,
+    "lineNumber": 771,
     "args": [
       {
         "argValue": "[grid]",
@@ -310,14 +310,14 @@
   {
     "eventId": "this.composerEventPrefix:will-close",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 795,
+    "lineNumber": 806,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:closed",
     "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 800,
+    "lineNumber": 811,
     "args": [],
     "comments": "need to wait a bit for the \"slide down\" transition of the composer"
   },
@@ -338,7 +338,7 @@
   {
     "eventId": "d-editor:preview-click-user-card",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 162,
+    "lineNumber": 157,
     "args": [
       {
         "argValue": "event.target",
@@ -356,7 +356,7 @@
   {
     "eventId": "d-editor:preview-click-group-card",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 170,
+    "lineNumber": 165,
     "args": [
       {
         "argValue": "event.target",
@@ -374,7 +374,7 @@
   {
     "eventId": "decorate-non-stream-cooked-element",
     "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 264,
+    "lineNumber": 259,
     "args": [
       {
         "argValue": "cookedElement",
@@ -775,7 +775,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 914,
+    "lineNumber": 901,
     "args": [
       {
         "argValue": [
@@ -793,7 +793,7 @@
   {
     "eventId": "topic:jump-to-post",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 965,
+    "lineNumber": 952,
     "args": [
       {
         "argValue": "this.get",
@@ -806,7 +806,7 @@
   {
     "eventId": "topic:jump-to-post",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1344,
+    "lineNumber": 1331,
     "args": [
       {
         "argValue": "postId",
@@ -819,7 +819,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1376,
+    "lineNumber": 1363,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -837,7 +837,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1417,
+    "lineNumber": 1404,
     "args": [
       {
         "argValue": [
@@ -855,7 +855,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1734,
+    "lineNumber": 1721,
     "args": [
       {
         "argValue": "args",
@@ -868,7 +868,7 @@
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1750,
+    "lineNumber": 1737,
     "args": [
       {
         "argValue": "topic",
@@ -881,7 +881,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1880,
+    "lineNumber": 1867,
     "args": [
       {
         "argValue": [
@@ -1233,7 +1233,7 @@
   {
     "eventId": "REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME",
     "filePath": "/app/assets/javascripts/discourse/app/lib/plugin-api.gjs",
-    "lineNumber": 2368,
+    "lineNumber": 2374,
     "args": [],
     "comments": null
   },
@@ -1276,7 +1276,7 @@
   {
     "eventId": "this.eventPrefix:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 423,
+    "lineNumber": 433,
     "args": [
       {
         "argValue": "table",
@@ -1289,7 +1289,7 @@
   {
     "eventId": "this.eventPrefix:insert-text",
     "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 477,
+    "lineNumber": 487,
     "args": [
       {
         "argValue": "markdown",
@@ -1320,21 +1320,21 @@
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 131,
+    "lineNumber": 130,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 178,
+    "lineNumber": 177,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 285,
+    "lineNumber": 284,
     "args": [
       {
         "argValue": "file.id",
@@ -1345,22 +1345,9 @@
     "comments": null
   },
   {
-    "eventId": "this.composerEventPrefix:insert-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 344,
-    "args": [
-      {
-        "argValue": "placeholder",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "this.composerEventPrefix:upload-started",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 350,
+    "lineNumber": 339,
     "args": [
       {
         "argValue": "file.name",
@@ -1371,27 +1358,9 @@
     "comments": null
   },
   {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 383,
-    "args": [
-      {
-        "argValue": "this...uploadPlaceholder.trim",
-        "argType": "called_function",
-        "argPosition": 1
-      },
-      {
-        "argValue": "markdown",
-        "argType": "variable",
-        "argPosition": 2
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "this.composerEventPrefix:upload-success",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 391,
+    "lineNumber": 374,
     "args": [
       {
         "argValue": "file.name",
@@ -1409,39 +1378,21 @@
   {
     "eventId": "this.composerEventPrefix:all-uploads-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 398,
+    "lineNumber": 381,
     "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 418,
-    "args": [
-      {
-        "argValue": "data.uploadPlaceholder",
-        "argType": "property",
-        "argPosition": 1
-      },
-      {
-        "argValue": "",
-        "argType": "string",
-        "argPosition": 2
-      }
-    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-cancelled",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 430,
+    "lineNumber": 402,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-error",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 451,
+    "lineNumber": 423,
     "args": [
       {
         "argValue": "file",
@@ -1452,88 +1403,16 @@
     "comments": null
   },
   {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 516,
-    "args": [
-      {
-        "argValue": "placeholderData.uploadPlaceholder",
-        "argType": "property",
-        "argPosition": 1
-      },
-      {
-        "argValue": "placeholderData.processingPlaceholder",
-        "argType": "property",
-        "argPosition": 2
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 525,
-    "args": [
-      {
-        "argValue": "placeholderData.uploadPlaceholder.replace",
-        "argType": "called_function",
-        "argPosition": 1
-      },
-      {
-        "argValue": "placeholderData.processingPlaceholder",
-        "argType": "property",
-        "argPosition": 2
-      }
-    ],
-    "comments": "Safari applies user-defined replacements to text inserted programmatically.\nOne of the most common replacements is ... -> …, so we take care of the case\nwhere that transformation has been applied to the original placeholder"
-  },
-  {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 536,
-    "args": [
-      {
-        "argValue": "placeholderData.processingPlaceholder",
-        "argType": "property",
-        "argPosition": 1
-      },
-      {
-        "argValue": "placeholderData.uploadPlaceholder",
-        "argType": "property",
-        "argPosition": 2
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 549,
+    "lineNumber": 498,
     "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 625,
-    "args": [
-      {
-        "argValue": "this...uploadPlaceholder",
-        "argType": "property",
-        "argPosition": 1
-      },
-      {
-        "argValue": "",
-        "argType": "string",
-        "argPosition": 2
-      }
-    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 794,
+    "lineNumber": 684,
     "args": [
       {
         "argValue": "[grid]",
@@ -1677,7 +1556,7 @@
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 944,
+    "lineNumber": 965,
     "args": [
       {
         "argValue": "this",
@@ -1690,7 +1569,7 @@
   {
     "eventId": "composer:reply-reloaded",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 970,
+    "lineNumber": 984,
     "args": [
       {
         "argValue": "this",
@@ -1703,7 +1582,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1075,
+    "lineNumber": 1094,
     "args": [
       {
         "argValue": [
@@ -1721,7 +1600,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1087,
+    "lineNumber": 1106,
     "args": [
       {
         "argValue": [
@@ -1739,7 +1618,7 @@
   {
     "eventId": "post:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1210,
+    "lineNumber": 1229,
     "args": [
       {
         "argValue": "createdPost",
@@ -1752,7 +1631,7 @@
   {
     "eventId": "topic:created",
     "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1212,
+    "lineNumber": 1231,
     "args": [
       {
         "argValue": "createdPost",
@@ -1857,7 +1736,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 526,
+    "lineNumber": 585,
     "args": [
       {
         "argValue": "data",
@@ -1884,7 +1763,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 530,
+    "lineNumber": 589,
     "args": [
       {
         "argValue": [
@@ -1902,7 +1781,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 547,
+    "lineNumber": 606,
     "args": [
       {
         "argValue": "null",
@@ -1929,7 +1808,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/topic.js",
-    "lineNumber": 688,
+    "lineNumber": 695,
     "args": [
       {
         "argValue": "null",
@@ -1947,7 +1826,7 @@
   {
     "eventId": "do-not-disturb:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
-    "lineNumber": 1227,
+    "lineNumber": 1225,
     "args": [
       {
         "argValue": "this.do_not_disturb_until",
@@ -1960,14 +1839,14 @@
   {
     "eventId": "user-drafts:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
-    "lineNumber": 1233,
+    "lineNumber": 1231,
     "args": [],
     "comments": null
   },
   {
     "eventId": "user-reviewable-count:changed",
     "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
-    "lineNumber": 1238,
+    "lineNumber": 1236,
     "args": [
       {
         "argValue": "count",
@@ -2559,7 +2438,7 @@
   {
     "eventId": "page:like-toggled",
     "filePath": "/app/assets/javascripts/discourse/app/widgets/post.js",
-    "lineNumber": 1138,
+    "lineNumber": 1136,
     "args": [
       {
         "argValue": "post",
@@ -2680,7 +2559,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/plugins/chat/assets/javascripts/discourse/lib/chat-message-interactor.js",
-    "lineNumber": 343,
+    "lineNumber": 350,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -2732,7 +2611,7 @@
   {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat.js",
-    "lineNumber": 455,
+    "lineNumber": 453,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2745,7 +2624,7 @@
   {
     "eventId": "discourse-reactions:reaction-toggled",
     "filePath": "/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js",
-    "lineNumber": 23,
+    "lineNumber": 15,
     "args": [
       {
         "argValue": [
@@ -2767,7 +2646,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 188,
+    "lineNumber": 190,
     "args": [
       {
         "argValue": "poll1",
@@ -2790,7 +2669,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 442,
+    "lineNumber": 444,
     "args": [
       {
         "argValue": "poll1",
