@@ -87,7 +87,6 @@ app_event_ids:
 - this.composerEventPrefix:all-uploads-complete
 - this.composerEventPrefix:apply-surround
 - this.composerEventPrefix:closed
-- this.composerEventPrefix:insert-text
 - this.composerEventPrefix:replace-text
 - this.composerEventPrefix:upload-cancelled
 - this.composerEventPrefix:upload-error
