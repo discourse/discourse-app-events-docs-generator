@@ -1,11 +1,5 @@
 ---
 app_event_ids:
-- LIGHTBOX_APP_EVENT_NAMES.CLOSE
-- LIGHTBOX_APP_EVENT_NAMES.CLOSED
-- LIGHTBOX_APP_EVENT_NAMES.ITEM_DID_CHANGE
-- LIGHTBOX_APP_EVENT_NAMES.ITEM_WILL_CHANGE
-- LIGHTBOX_APP_EVENT_NAMES.OPEN
-- LIGHTBOX_APP_EVENT_NAMES.OPENED
 - REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME
 - ace:resize
 - bookmarks:changed
@@ -48,7 +42,6 @@ app_event_ids:
 - decorate-non-stream-cooked-element
 - desktop-notification-opened
 - destroyed-custom-html:this.name
-- discourse-reactions:reaction-toggled
 - discourse:focus-changed
 - do-not-disturb:changed
 - dom:clean
@@ -121,3 +114,4 @@ app_event_ids:
 - user-menu:tab-click
 - user-reviewable-count:changed
 - user-status:changed
+- user-stream:new-item-inserted
