@@ -37,6 +37,9 @@ jobs:
       - name: Extract App Events
         run: node scripts/extract_app_events.mjs
 
+      - name: Generate App Events Details Doc
+        run: node scripts/create_app_events_doc_markdown.mjs
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -46,6 +49,7 @@ jobs:
             This PR updates the app events data files:
             - lib/app_events_docs_generator/app_events/app_events_details.json
             - lib/app_events_docs_generator/app_events/event-ids.yml
+            - lib/app_events_docs_generator/app_events/app_events_docs.md
 
             The data was extracted from the latest Discourse core repository.
           branch: dev-update-app-events-data
