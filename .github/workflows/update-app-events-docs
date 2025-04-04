@@ -1,0 +1,67 @@
+name: Update App Events Documentation
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Run every Monday at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-app-events-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout App Events Generator
+        uses: actions/checkout@v4
+
+      - name: Checkout Discourse Core
+        uses: actions/checkout@v4
+        with:
+          repository: discourse/discourse
+          path: 'discourse'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          package_json_file: package.json
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Create .env file
+        run: echo "DISCOURSE_CORE=./discourse" > .env
+
+      - name: Extract App Events
+        run: node scripts/extract_app_events.mjs
+      
+      - name: Generate App Events Documentation
+        run: node scripts/create_app_events_doc_markdown.mjs
+
+      - name: Checkout Developer Docs
+        uses: actions/checkout@v4
+        with:
+          repository: discourse/discourse-developer-docs
+          path: 'discourse-developer-docs'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Developer Docs
+        run: |
+          cp app_events_doc.md discourse-developer-docs/docs/03-code-internals/22-app-events-triggers.md
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: 'discourse-developer-docs'
+          commit-message: Update App Events documentation
+          title: Update App Events Documentation
+          body: |
+            This PR updates the App Events documentation in the developer docs.
+            
+            The documentation was automatically generated using the discourse-app-events-docs-generator tool.
+          branch: dev-update-app-events-docs
+          delete-branch: true
+          base: main
