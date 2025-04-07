@@ -58,3 +58,7 @@ jobs:
             The data was extracted from the latest Discourse core repository.
           branch: dev-update-app-events-data
           delete-branch: true
+          add-paths: |
+            ./lib/app_events_docs_generator/app_events/app_events_details.json
+            ./lib/app_events_docs_generator/app_events/app_events_docs.md
+            ./lib/app_events_docs_generator/app_events/event-ids.yml
