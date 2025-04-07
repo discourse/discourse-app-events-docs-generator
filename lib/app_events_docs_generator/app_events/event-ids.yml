@@ -1,6 +1,5 @@
 ---
 app_event_ids:
-- REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME
 - ace:resize
 - bookmarks:changed
 - card:close
@@ -17,6 +16,8 @@ app_event_ids:
 - click-tracked
 - composer-messages:close
 - composer-messages:create
+- composer-service:last-validated-at-cleared
+- composer-service:last-validated-at-updated
 - composer:cancel-upload
 - composer:cancelled
 - composer:created-post
@@ -27,6 +28,7 @@ app_event_ids:
 - composer:insert-text
 - composer:open
 - composer:opened
+- composer:preview-toggled
 - composer:reply-reloaded
 - composer:resize-ended
 - composer:resize-started
@@ -40,6 +42,7 @@ app_event_ids:
 - d-editor:preview-click-user-card
 - d-editor:toolbar-button-clicked
 - decorate-non-stream-cooked-element
+- decorate-post-cooked-element:after-adopt
 - desktop-notification-opened
 - destroyed-custom-html:this.name
 - discourse:focus-changed
@@ -55,6 +58,7 @@ app_event_ids:
 - header:show-topic
 - header:update-topic
 - inserted-custom-html:this.name
+- interface-color:changed
 - keyboard-visibility-change
 - keyboard:move-selection
 - notifications:changed
@@ -75,6 +79,8 @@ app_event_ids:
 - push-notification-opened
 - quote-button:edit
 - quote-button:quote
+- search-menu:search_menu_opened
+- search:search_result_view
 - sidebar-hamburger-dropdown:rendered
 - site-header:force-refresh
 - this.composerEventPrefix:all-uploads-complete
@@ -101,6 +107,7 @@ app_event_ids:
 - topic:keyboard-trigger
 - topic:scrolled
 - topic:timings-sent
+- undefined
 - upload-mixin:this.config.id:all-uploads-complete
 - upload-mixin:this.config.id:in-progress-uploads
 - upload-mixin:this.config.id:upload-cancelled
@@ -114,4 +121,3 @@ app_event_ids:
 - user-menu:tab-click
 - user-reviewable-count:changed
 - user-status:changed
-- user-stream:new-item-inserted

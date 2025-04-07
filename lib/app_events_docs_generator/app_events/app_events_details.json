@@ -1,15 +1,15 @@
 [
   {
     "eventId": "ace:resize",
-    "filePath": "/app/assets/javascripts/admin/addon/components/admin-theme-editor.js",
-    "lineNumber": 109,
+    "filePath": "discourse/app/assets/javascripts/admin/addon/components/admin-theme-editor.gjs",
+    "lineNumber": 118,
     "args": [],
     "comments": null
   },
   {
     "eventId": "topic-entrance:show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/basic-topic-list.js",
-    "lineNumber": 109,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/basic-topic-list.gjs",
+    "lineNumber": 90,
     "args": [
       {
         "argValue": [
@@ -30,8 +30,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/components/bookmark-list.js",
-    "lineNumber": 40,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/bookmark-list.gjs",
+    "lineNumber": 53,
     "args": [
       {
         "argValue": "null",
@@ -39,7 +39,7 @@
         "argPosition": 1
       },
       {
-        "argValue": "bookmark.attachedTo",
+        "argValue": "bookmark1.attachedTo",
         "argType": "called_function",
         "argPosition": 2
       }
@@ -48,16 +48,16 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/components/bookmark-list.js",
-    "lineNumber": 78,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/bookmark-list.gjs",
+    "lineNumber": 84,
     "args": [
       {
-        "argValue": "savedData",
+        "argValue": "savedData1",
         "argType": "variable",
         "argPosition": 1
       },
       {
-        "argValue": "bookmark.attachedTo",
+        "argValue": "bookmark1.attachedTo",
         "argType": "called_function",
         "argPosition": 2
       }
@@ -66,7 +66,7 @@
   },
   {
     "eventId": "card:show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 63,
     "args": [
       {
@@ -89,7 +89,7 @@
   },
   {
     "eventId": "user-card:show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 88,
     "args": [
       {
@@ -107,7 +107,7 @@
   },
   {
     "eventId": "user-card:after-show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 93,
     "args": [
       {
@@ -125,85 +125,90 @@
   },
   {
     "eventId": "card:hide",
-    "filePath": "/app/assets/javascripts/discourse/app/components/card-contents-base.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/card-contents-base.js",
     "lineNumber": 264,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:find-similar",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 69,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:div-resizing",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 88,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resized",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 125,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resize-started",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 143,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resize-ended",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 148,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:opened",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-body.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-body.js",
     "lineNumber": 175,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:will-open",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 194,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 160,
     "args": [],
     "comments": null
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 511,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 382,
     "args": [
       {
-        "argValue": "preview",
+        "argValue": "preview1",
         "argType": "variable",
         "argPosition": 1
+      },
+      {
+        "argValue": "helper1",
+        "argType": "variable",
+        "argPosition": 2
       }
     ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 610,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 451,
     "args": [
       {
-        "argValue": "matchingPlaceholder.index",
+        "argValue": "matchingPlaceholder1.index1",
         "argType": "property",
         "argPosition": 1
       },
       {
-        "argValue": "replacement",
+        "argValue": "replacement1",
         "argType": "variable",
         "argPosition": 2
       },
@@ -226,16 +231,16 @@
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 654,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 477,
     "args": [
       {
-        "argValue": "match",
+        "argValue": "match1",
         "argType": "variable",
         "argPosition": 1
       },
       {
-        "argValue": "replacement",
+        "argValue": "replacement1",
         "argType": "variable",
         "argPosition": 2
       }
@@ -244,11 +249,11 @@
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 741,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 537,
     "args": [
       {
-        "argValue": "matchingPlaceholder.index",
+        "argValue": "matchingPlaceholder1.index1",
         "argType": "property",
         "argPosition": 1
       },
@@ -276,8 +281,8 @@
   },
   {
     "eventId": "this.composerEventPrefix:apply-surround",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 769,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 554,
     "args": [
       {
         "argValue": "[grid]",
@@ -309,44 +314,44 @@
   },
   {
     "eventId": "this.composerEventPrefix:will-close",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 804,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 577,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:closed",
-    "filePath": "/app/assets/javascripts/discourse/app/components/composer-editor.js",
-    "lineNumber": 808,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 579,
     "args": [],
     "comments": "need to wait a bit for the \"slide down\" transition of the composer"
   },
   {
     "eventId": "inserted-custom-html:this.name",
-    "filePath": "/app/assets/javascripts/discourse/app/components/custom-html.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/custom-html.js",
     "lineNumber": 33,
     "args": [],
     "comments": null
   },
   {
     "eventId": "destroyed-custom-html:this.name",
-    "filePath": "/app/assets/javascripts/discourse/app/components/custom-html.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/custom-html.js",
     "lineNumber": 40,
     "args": [],
     "comments": null
   },
   {
     "eventId": "d-editor:preview-click-user-card",
-    "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 158,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/d-editor.gjs",
+    "lineNumber": 149,
     "args": [
       {
-        "argValue": "event.target",
+        "argValue": "event1.target",
         "argType": "property",
         "argPosition": 1
       },
       {
-        "argValue": "event",
+        "argValue": "event1",
         "argType": "variable",
         "argPosition": 2
       }
@@ -355,16 +360,16 @@
   },
   {
     "eventId": "d-editor:preview-click-group-card",
-    "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 166,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/d-editor.gjs",
+    "lineNumber": 152,
     "args": [
       {
-        "argValue": "event.target",
+        "argValue": "event1.target",
         "argType": "property",
         "argPosition": 1
       },
       {
-        "argValue": "event",
+        "argValue": "event1",
         "argType": "variable",
         "argPosition": 2
       }
@@ -372,21 +377,8 @@
     "comments": null
   },
   {
-    "eventId": "decorate-non-stream-cooked-element",
-    "filePath": "/app/assets/javascripts/discourse/app/components/d-editor.js",
-    "lineNumber": 260,
-    "args": [
-      {
-        "argValue": "cookedElement",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": "trigger all the \"api.decorateCookedElement\""
-  },
-  {
     "eventId": "keyboard-visibility-change",
-    "filePath": "/app/assets/javascripts/discourse/app/components/d-virtual-height.gjs",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/d-virtual-height.gjs",
     "lineNumber": 59,
     "args": [
       {
@@ -399,20 +391,25 @@
   },
   {
     "eventId": "decorate-non-stream-cooked-element",
-    "filePath": "/app/assets/javascripts/discourse/app/components/discourse-banner.gjs",
-    "lineNumber": 47,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/discourse-banner.gjs",
+    "lineNumber": 48,
     "args": [
       {
         "argValue": "element1",
         "argType": "variable",
         "argPosition": 1
+      },
+      {
+        "argValue": "helper1",
+        "argType": "variable",
+        "argPosition": 2
       }
     ],
     "comments": null
   },
   {
     "eventId": "topic:scrolled",
-    "filePath": "/app/assets/javascripts/discourse/app/components/discourse-topic.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/discourse-topic.js",
     "lineNumber": 99,
     "args": [
       {
@@ -425,8 +422,8 @@
   },
   {
     "eventId": "topic-entrance:show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/featured-topic.js",
-    "lineNumber": 13,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/featured-topic.gjs",
+    "lineNumber": 14,
     "args": [
       {
         "argValue": [
@@ -447,11 +444,11 @@
   },
   {
     "eventId": "group:leave",
-    "filePath": "/app/assets/javascripts/discourse/app/components/group-membership-button.js",
-    "lineNumber": 49,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/group-membership-button.gjs",
+    "lineNumber": 46,
     "args": [
       {
-        "argValue": "model",
+        "argValue": "model1",
         "argType": "variable",
         "argPosition": 1
       }
@@ -460,11 +457,11 @@
   },
   {
     "eventId": "group:join",
-    "filePath": "/app/assets/javascripts/discourse/app/components/group-membership-button.js",
-    "lineNumber": 65,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/group-membership-button.gjs",
+    "lineNumber": 56,
     "args": [
       {
-        "argValue": "group",
+        "argValue": "group1",
         "argType": "variable",
         "argPosition": 1
       }
@@ -473,7 +470,7 @@
   },
   {
     "eventId": "topic-header:trigger-this.args.type-card",
-    "filePath": "/app/assets/javascripts/discourse/app/components/header/topic/participant.gjs",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/header/topic/participant.gjs",
     "lineNumber": 19,
     "args": [
       {
@@ -496,15 +493,15 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/components/invite-panel.js",
-    "lineNumber": 340,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/invite-panel.gjs",
+    "lineNumber": 256,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/components/invite-panel.js",
-    "lineNumber": 353,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/invite-panel.gjs",
+    "lineNumber": 267,
     "args": [
       {
         "argValue": [
@@ -521,11 +518,11 @@
   },
   {
     "eventId": "header:show-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/components/modal/convert-to-public-topic.js",
-    "lineNumber": 23,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/modal/convert-to-public-topic.gjs",
+    "lineNumber": 31,
     "args": [
       {
-        "argValue": "topic",
+        "argValue": "topic1",
         "argType": "variable",
         "argPosition": 1
       }
@@ -534,8 +531,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/components/modal/history.js",
-    "lineNumber": 190,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/modal/history.gjs",
+    "lineNumber": 159,
     "args": [
       {
         "argValue": [
@@ -551,9 +548,119 @@
     "comments": null
   },
   {
+    "eventId": "undefined",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post/cooked-html.gjs",
+    "lineNumber": 82,
+    "args": [
+      {
+        "argValue": "element1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "helper1",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "decorate-post-cooked-element:after-adopt",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post/cooked-html.gjs",
+    "lineNumber": 89,
+    "args": [
+      {
+        "argValue": "element1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "helper1",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "post-stream:filter-show-all",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post/filtered-notice.gjs",
+    "lineNumber": 111,
+    "args": [
+      {
+        "argValue": "this.args.streamFilters",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "post-stream:gap-expanded",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post/gap.gjs",
+    "lineNumber": 26,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "post_id",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "decorate-non-stream-cooked-element",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post-list/item/index.gjs",
+    "lineNumber": 67,
+    "args": [
+      {
+        "argValue": "element1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "helper1",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:like-toggled",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/post.gjs",
+    "lineNumber": 194,
+    "args": [
+      {
+        "argValue": "post1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "likeAction1",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "search-menu:search_menu_opened",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/search-menu.gjs",
+    "lineNumber": 127,
+    "args": [],
+    "comments": null
+  },
+  {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/components/search-menu.js",
-    "lineNumber": 304,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/search-menu.gjs",
+    "lineNumber": 273,
     "args": [
       {
         "argValue": [
@@ -570,15 +677,15 @@
   },
   {
     "eventId": "sidebar-hamburger-dropdown:rendered",
-    "filePath": "/app/assets/javascripts/discourse/app/components/sidebar/hamburger-dropdown.gjs",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/sidebar/hamburger-dropdown.gjs",
     "lineNumber": 26,
     "args": [],
     "comments": null
   },
   {
     "eventId": "topic-entrance:show",
-    "filePath": "/app/assets/javascripts/discourse/app/components/topic-list-item.js",
-    "lineNumber": 35,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/topic-list-item.gjs",
+    "lineNumber": 31,
     "args": [
       {
         "argValue": [
@@ -599,11 +706,11 @@
   },
   {
     "eventId": "user-menu:tab-click",
-    "filePath": "/app/assets/javascripts/discourse/app/components/user-menu/menu.js",
-    "lineNumber": 313,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/user-menu/menu.gjs",
+    "lineNumber": 261,
     "args": [
       {
-        "argValue": "tab.id",
+        "argValue": "tab1.id",
         "argType": "property",
         "argPosition": 1
       }
@@ -612,45 +719,24 @@
   },
   {
     "eventId": "user-menu:rendered",
-    "filePath": "/app/assets/javascripts/discourse/app/components/user-menu/menu.js",
-    "lineNumber": 319,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/components/user-menu/menu.gjs",
+    "lineNumber": 266,
     "args": [],
     "comments": null
   },
   {
-    "eventId": "decorate-non-stream-cooked-element",
-    "filePath": "/app/assets/javascripts/discourse/app/components/user-stream.gjs",
-    "lineNumber": 44,
+    "eventId": "search:search_result_view",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/full-page-search.js",
+    "lineNumber": 463,
     "args": [
       {
-        "argValue": "element1",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "user-stream:new-item-inserted",
-    "filePath": "/app/assets/javascripts/discourse/app/components/user-stream.gjs",
-    "lineNumber": 138,
-    "args": [
-      {
-        "argValue": "element1",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "decorate-non-stream-cooked-element",
-    "filePath": "/app/assets/javascripts/discourse/app/components/user-stream.gjs",
-    "lineNumber": 139,
-    "args": [
-      {
-        "argValue": "element1",
-        "argType": "variable",
+        "argValue": [
+          {
+            "key": "page",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
         "argPosition": 1
       }
     ],
@@ -658,15 +744,15 @@
   },
   {
     "eventId": "full-page-search:trigger-search",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/full-page-search.js",
-    "lineNumber": 567,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/full-page-search.js",
+    "lineNumber": 570,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 112,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 115,
     "args": [
       {
         "argValue": [
@@ -683,8 +769,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 296,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 307,
     "args": [
       {
         "argValue": [
@@ -701,8 +787,8 @@
   },
   {
     "eventId": "composer:insert-block",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 473,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 484,
     "args": [
       {
         "argValue": "quotedText",
@@ -714,8 +800,8 @@
   },
   {
     "eventId": "topic:current-post-changed",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 513,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 524,
     "args": [
       {
         "argValue": [
@@ -732,8 +818,8 @@
   },
   {
     "eventId": "topic:current-post-scrolled",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 520,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 531,
     "args": [
       {
         "argValue": [
@@ -754,8 +840,8 @@
   },
   {
     "eventId": "page:compose-reply",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 672,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 683,
     "args": [
       {
         "argValue": "topic",
@@ -767,8 +853,8 @@
   },
   {
     "eventId": "composer:insert-block",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 694,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 705,
     "args": [
       {
         "argValue": "quotedText.trim",
@@ -780,15 +866,15 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 734,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 745,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 901,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 916,
     "args": [
       {
         "argValue": [
@@ -805,8 +891,8 @@
   },
   {
     "eventId": "topic:jump-to-post",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 952,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 967,
     "args": [
       {
         "argValue": "this.get",
@@ -818,8 +904,8 @@
   },
   {
     "eventId": "topic:jump-to-post",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1333,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1353,
     "args": [
       {
         "argValue": "postId",
@@ -831,8 +917,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1365,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1385,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -849,8 +935,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1406,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1426,
     "args": [
       {
         "argValue": [
@@ -867,8 +953,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1723,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1743,
     "args": [
       {
         "argValue": "args",
@@ -880,8 +966,8 @@
   },
   {
     "eventId": "header:update-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1739,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1759,
     "args": [
       {
         "argValue": "topic",
@@ -893,8 +979,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1873,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/controllers/topic.js",
+    "lineNumber": 1893,
     "args": [
       {
         "argValue": [
@@ -911,35 +997,35 @@
   },
   {
     "eventId": "dom:clean",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/clean-dom-on-route-change.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/clean-dom-on-route-change.js",
     "lineNumber": 32,
     "args": [],
     "comments": null
   },
   {
     "eventId": "site-header:force-refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/narrow-desktop.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/narrow-desktop.js",
     "lineNumber": 26,
     "args": [],
     "comments": null
   },
   {
     "eventId": "cta:shown",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/signup-cta.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/signup-cta.js",
     "lineNumber": 72,
     "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 155,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 163,
     "args": [
       {
@@ -957,7 +1043,7 @@
   },
   {
     "eventId": "user-status:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/instance-initializers/subscribe-user-notifications.js",
     "lineNumber": 227,
     "args": [
       {
@@ -970,7 +1056,7 @@
   },
   {
     "eventId": "click-tracked",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/click-track.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/click-track.js",
     "lineNumber": 98,
     "args": [
       {
@@ -983,7 +1069,7 @@
   },
   {
     "eventId": "d-editor:toolbar-button-clicked",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/composer/toolbar.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/composer/toolbar.js",
     "lineNumber": 140,
     "args": [
       {
@@ -996,7 +1082,7 @@
   },
   {
     "eventId": "desktop-notification-opened",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/desktop-notifications.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/desktop-notifications.js",
     "lineNumber": 179,
     "args": [
       {
@@ -1014,7 +1100,7 @@
   },
   {
     "eventId": "this.flagCreatedEvent",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
     "lineNumber": 15,
     "args": [
       {
@@ -1037,7 +1123,7 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/flag-targets/flag.js",
     "lineNumber": 26,
     "args": [
       {
@@ -1055,22 +1141,22 @@
   },
   {
     "eventId": "quote-button:quote",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 335,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 341,
     "args": [],
     "comments": null
   },
   {
     "eventId": "quote-button:edit",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 351,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 357,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 449,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 455,
     "args": [
       {
         "argValue": [
@@ -1091,8 +1177,8 @@
   },
   {
     "eventId": "topic:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 516,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 525,
     "args": [
       {
         "argValue": [
@@ -1109,29 +1195,7 @@
   },
   {
     "eventId": "header:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 520,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "type",
-            "valueType": "string"
-          },
-          {
-            "key": "event",
-            "valueType": "variable"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "header:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
     "lineNumber": 529,
     "args": [
       {
@@ -1153,8 +1217,30 @@
   },
   {
     "eventId": "header:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 536,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 538,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "header:keyboard-trigger",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 545,
     "args": [
       {
         "argValue": [
@@ -1175,8 +1261,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 623,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 632,
     "args": [
       {
         "argValue": [
@@ -1193,8 +1279,8 @@
   },
   {
     "eventId": "keyboard:move-selection",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
-    "lineNumber": 793,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/keyboard-shortcuts.js",
+    "lineNumber": 802,
     "args": [
       {
         "argValue": [
@@ -1215,8 +1301,8 @@
   },
   {
     "eventId": "page:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/page-tracker.js",
-    "lineNumber": 41,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/page-tracker.js",
+    "lineNumber": 42,
     "args": [
       {
         "argValue": [
@@ -1244,16 +1330,9 @@
     "comments": null
   },
   {
-    "eventId": "REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/plugin-api.gjs",
-    "lineNumber": 2358,
-    "args": [],
-    "comments": null
-  },
-  {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/post-bookmark-manager.js",
-    "lineNumber": 60,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/post-bookmark-manager.js",
+    "lineNumber": 61,
     "args": [
       {
         "argValue": [
@@ -1270,7 +1349,7 @@
   },
   {
     "eventId": "push-notification-opened",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/push-notifications.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/push-notifications.js",
     "lineNumber": 77,
     "args": [
       {
@@ -1288,8 +1367,8 @@
   },
   {
     "eventId": "this.eventPrefix:insert-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 429,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
+    "lineNumber": 443,
     "args": [
       {
         "argValue": "table",
@@ -1301,8 +1380,8 @@
   },
   {
     "eventId": "this.eventPrefix:insert-text",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 483,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/textarea-text-manipulation.js",
+    "lineNumber": 497,
     "args": [
       {
         "argValue": "markdown",
@@ -1314,8 +1393,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/topic-bookmark-manager.js",
-    "lineNumber": 57,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/topic-bookmark-manager.js",
+    "lineNumber": 58,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -1332,22 +1411,22 @@
   },
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 130,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 131,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 177,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 178,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 284,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 285,
     "args": [
       {
         "argValue": "file.id",
@@ -1359,8 +1438,8 @@
   },
   {
     "eventId": "this.composerEventPrefix:upload-started",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 339,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 340,
     "args": [
       {
         "argValue": "file.name",
@@ -1372,8 +1451,8 @@
   },
   {
     "eventId": "this.composerEventPrefix:upload-success",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 374,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 378,
     "args": [
       {
         "argValue": "file.name",
@@ -1390,22 +1469,22 @@
   },
   {
     "eventId": "this.composerEventPrefix:all-uploads-complete",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 381,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 385,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 402,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 406,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-error",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 423,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 427,
     "args": [
       {
         "argValue": "file",
@@ -1417,15 +1496,15 @@
   },
   {
     "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 498,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 502,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:apply-surround",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 684,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 689,
     "args": [
       {
         "argValue": "[grid]",
@@ -1457,7 +1536,7 @@
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-success",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 249,
     "args": [
       {
@@ -1475,7 +1554,7 @@
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-success",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 270,
     "args": [
       {
@@ -1493,7 +1572,7 @@
   },
   {
     "eventId": "upload-mixin:this.config.id:upload-cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 304,
     "args": [
       {
@@ -1506,14 +1585,14 @@
   },
   {
     "eventId": "upload-mixin:this.config.id:uploads-cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 346,
     "args": [],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:in-progress-uploads",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 382,
     "args": [
       {
@@ -1526,15 +1605,15 @@
   },
   {
     "eventId": "upload-mixin:this.config.id:all-uploads-complete",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/uppy/uppy-upload.js",
     "lineNumber": 572,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post:highlight",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/url.js",
-    "lineNumber": 356,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/url.js",
+    "lineNumber": 366,
     "args": [
       {
         "argValue": "closest",
@@ -1546,7 +1625,7 @@
   },
   {
     "eventId": "user-menu:notification-click",
-    "filePath": "/app/assets/javascripts/discourse/app/lib/user-menu/notification-item.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/lib/user-menu/notification-item.js",
     "lineNumber": 85,
     "args": [
       {
@@ -1568,8 +1647,8 @@
   },
   {
     "eventId": "composer:reply-reloaded",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 969,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 985,
     "args": [
       {
         "argValue": "this",
@@ -1581,8 +1660,8 @@
   },
   {
     "eventId": "composer:reply-reloaded",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 988,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 1004,
     "args": [
       {
         "argValue": "this",
@@ -1594,8 +1673,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1098,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 1114,
     "args": [
       {
         "argValue": [
@@ -1612,8 +1691,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1110,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 1126,
     "args": [
       {
         "argValue": [
@@ -1630,8 +1709,8 @@
   },
   {
     "eventId": "post:created",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1233,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 1249,
     "args": [
       {
         "argValue": "createdPost",
@@ -1643,8 +1722,8 @@
   },
   {
     "eventId": "topic:created",
-    "filePath": "/app/assets/javascripts/discourse/app/models/composer.js",
-    "lineNumber": 1235,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/composer.js",
+    "lineNumber": 1251,
     "args": [
       {
         "argValue": "createdPost",
@@ -1661,7 +1740,7 @@
   },
   {
     "eventId": "post-stream:filter-replies",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 270,
     "args": [
       {
@@ -1687,14 +1766,14 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 284,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:filter-upwards",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 299,
     "args": [
       {
@@ -1716,21 +1795,21 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 304,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 438,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post:show-revision",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post-stream.js",
     "lineNumber": 1290,
     "args": [
       {
@@ -1748,8 +1827,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 588,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post.js",
+    "lineNumber": 632,
     "args": [
       {
         "argValue": "data",
@@ -1775,8 +1854,8 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 592,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post.js",
+    "lineNumber": 636,
     "args": [
       {
         "argValue": [
@@ -1793,8 +1872,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/post.js",
-    "lineNumber": 609,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/post.js",
+    "lineNumber": 653,
     "args": [
       {
         "argValue": "null",
@@ -1820,8 +1899,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/topic.js",
-    "lineNumber": 695,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/topic.js",
+    "lineNumber": 704,
     "args": [
       {
         "argValue": "null",
@@ -1838,7 +1917,7 @@
   },
   {
     "eventId": "do-not-disturb:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1253,
     "args": [
       {
@@ -1851,14 +1930,14 @@
   },
   {
     "eventId": "user-drafts:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1259,
     "args": [],
     "comments": null
   },
   {
     "eventId": "user-reviewable-count:changed",
-    "filePath": "/app/assets/javascripts/discourse/app/models/user.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/models/user.js",
     "lineNumber": 1264,
     "args": [
       {
@@ -1871,7 +1950,7 @@
   },
   {
     "eventId": "page:topic-loaded",
-    "filePath": "/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
     "lineNumber": 93,
     "args": [
       {
@@ -1884,7 +1963,7 @@
   },
   {
     "eventId": "post:highlight",
-    "filePath": "/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/routes/topic-from-params.js",
     "lineNumber": 98,
     "args": [
       {
@@ -1897,14 +1976,14 @@
   },
   {
     "eventId": "header:hide-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/routes/topic.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/routes/topic.js",
     "lineNumber": 395,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/routes/topic.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/routes/topic.js",
     "lineNumber": 420,
     "args": [
       {
@@ -1917,7 +1996,7 @@
   },
   {
     "eventId": "count-updated:user.username_lower:key",
-    "filePath": "/app/assets/javascripts/discourse/app/routes/user.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/routes/user.js",
     "lineNumber": 102,
     "args": [
       {
@@ -1929,16 +2008,29 @@
     "comments": null
   },
   {
+    "eventId": "composer:preview-toggled",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 144,
+    "args": [
+      {
+        "argValue": "this.isPreviewVisible",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "composer:cancel-upload",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 646,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 658,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:toolbar-popup-menu-button-clicked",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 675,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 687,
     "args": [
       {
         "argValue": "menuItem",
@@ -1950,8 +2042,8 @@
   },
   {
     "eventId": "composer-messages:create",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 767,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 779,
     "args": [
       {
         "argValue": [
@@ -1976,8 +2068,8 @@
   },
   {
     "eventId": "composer-messages:create",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 777,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 789,
     "args": [
       {
         "argValue": [
@@ -2002,22 +2094,22 @@
   },
   {
     "eventId": "emoji-picker:close",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 900,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 912,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:close",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 905,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 917,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 956,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 968,
     "args": [
       {
         "argValue": [
@@ -2042,8 +2134,8 @@
   },
   {
     "eventId": "composer-messages:create",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 980,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 992,
     "args": [
       {
         "argValue": [
@@ -2068,8 +2160,8 @@
   },
   {
     "eventId": "composer-messages:create",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 989,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1001,
     "args": [
       {
         "argValue": [
@@ -2093,30 +2185,48 @@
     "comments": null
   },
   {
+    "eventId": "composer-service:last-validated-at-updated",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1068,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "model",
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "composer:saved",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1152,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1172,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1165,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1185,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:edited-post",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1171,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1191,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1172,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1192,
     "args": [
       {
         "argValue": [
@@ -2133,8 +2243,8 @@
   },
   {
     "eventId": "header:update-topic",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1176,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1196,
     "args": [
       {
         "argValue": "composer.topic",
@@ -2146,22 +2256,22 @@
   },
   {
     "eventId": "post-stream:refresh",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1179,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1199,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:created-post",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1183,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1203,
     "args": [],
     "comments": null
   },
   {
     "eventId": "post:highlight",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1184,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1204,
     "args": [
       {
         "argValue": "result.payload.post_number",
@@ -2178,8 +2288,8 @@
   },
   {
     "eventId": "post-stream:posted",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1245,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1265,
     "args": [
       {
         "argValue": "staged",
@@ -2191,15 +2301,15 @@
   },
   {
     "eventId": "composer:typed-reply",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1262,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1282,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:open",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1391,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1399,
     "args": [
       {
         "argValue": [
@@ -2216,8 +2326,8 @@
   },
   {
     "eventId": "draft:destroyed",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1536,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1544,
     "args": [
       {
         "argValue": "key",
@@ -2229,28 +2339,35 @@
   },
   {
     "eventId": "composer:cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1605,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1571,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1613,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1579,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
-    "filePath": "/app/assets/javascripts/discourse/app/services/composer.js",
-    "lineNumber": 1626,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1592,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "composer-service:last-validated-at-cleared",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/composer.js",
+    "lineNumber": 1754,
     "args": [],
     "comments": null
   },
   {
     "eventId": "discourse:focus-changed",
-    "filePath": "/app/assets/javascripts/discourse/app/services/document-title.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/document-title.js",
     "lineNumber": 40,
     "args": [
       {
@@ -2262,8 +2379,60 @@
     "comments": null
   },
   {
+    "eventId": "interface-color:changed",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/interface-color.js",
+    "lineNumber": 73,
+    "args": [
+      {
+        "argValue": "LIGHT",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "interface-color:changed",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/interface-color.js",
+    "lineNumber": 91,
+    "args": [
+      {
+        "argValue": "DARK",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "interface-color:changed",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/interface-color.js",
+    "lineNumber": 101,
+    "args": [
+      {
+        "argValue": "LIGHT",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "interface-color:changed",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/interface-color.js",
+    "lineNumber": 107,
+    "args": [
+      {
+        "argValue": "DARK",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "topic:timings-sent",
-    "filePath": "/app/assets/javascripts/discourse/app/services/screen-track.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/screen-track.js",
     "lineNumber": 209,
     "args": [
       {
@@ -2276,8 +2445,8 @@
   },
   {
     "eventId": "composer:insert-text",
-    "filePath": "/app/assets/javascripts/discourse/app/services/search.js",
-    "lineNumber": 42,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/search.js",
+    "lineNumber": 65,
     "args": [
       {
         "argValue": "document.activeElement.href",
@@ -2299,8 +2468,8 @@
   },
   {
     "eventId": "header:keyboard-trigger",
-    "filePath": "/app/assets/javascripts/discourse/app/services/search.js",
-    "lineNumber": 49,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/services/search.js",
+    "lineNumber": 72,
     "args": [
       {
         "argValue": [
@@ -2317,7 +2486,7 @@
   },
   {
     "eventId": "post-stream:gap-expanded",
-    "filePath": "/app/assets/javascripts/discourse/app/widgets/post-gap.js",
+    "filePath": "discourse/app/assets/javascripts/discourse/app/widgets/post-gap.js",
     "lineNumber": 32,
     "args": [
       {
@@ -2335,8 +2504,8 @@
   },
   {
     "eventId": "post-stream:filter-show-all",
-    "filePath": "/app/assets/javascripts/discourse/app/widgets/post-stream.js",
-    "lineNumber": 186,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/widgets/post-stream.js",
+    "lineNumber": 205,
     "args": [
       {
         "argValue": "this.attrs.streamFilters",
@@ -2348,8 +2517,8 @@
   },
   {
     "eventId": "page:like-toggled",
-    "filePath": "/app/assets/javascripts/discourse/app/widgets/post.js",
-    "lineNumber": 1156,
+    "filePath": "discourse/app/assets/javascripts/discourse/app/widgets/post.js",
+    "lineNumber": 1155,
     "args": [
       {
         "argValue": "post",
@@ -2366,22 +2535,22 @@
   },
   {
     "eventId": "card:close",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat/direct-message-button.gjs",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/components/chat/direct-message-button.gjs",
     "lineNumber": 32,
     "args": [],
     "comments": null
   },
   {
     "eventId": "chat:rerender-header",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.js",
-    "lineNumber": 91,
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/components/chat-drawer.gjs",
+    "lineNumber": 80,
     "args": [],
     "comments": null
   },
   {
     "eventId": "chat:toggle-expand",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.js",
-    "lineNumber": 208,
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/components/chat-drawer.gjs",
+    "lineNumber": 164,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2393,7 +2562,7 @@
   },
   {
     "eventId": "chat:message_interaction",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-message/blocks/index.gjs",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/components/chat-message/blocks/index.gjs",
     "lineNumber": 18,
     "args": [
       {
@@ -2406,7 +2575,7 @@
   },
   {
     "eventId": "chat:modify-selection",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 72,
     "args": [
       {
@@ -2433,7 +2602,7 @@
   },
   {
     "eventId": "chat:open-insert-link-modal",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 84,
     "args": [
       {
@@ -2456,7 +2625,7 @@
   },
   {
     "eventId": "chat:toggle-close",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
     "lineNumber": 110,
     "args": [
       {
@@ -2469,8 +2638,8 @@
   },
   {
     "eventId": "bookmarks:changed",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/lib/chat-message-interactor.js",
-    "lineNumber": 346,
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/lib/chat-message-interactor.js",
+    "lineNumber": 361,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -2487,7 +2656,7 @@
   },
   {
     "eventId": "chat:open-url",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/routes/chat.js",
     "lineNumber": 48,
     "args": [
       {
@@ -2500,29 +2669,29 @@
   },
   {
     "eventId": "chat:toggle-close",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/routes/chat.js",
     "lineNumber": 53,
     "args": [],
     "comments": null
   },
   {
     "eventId": "chat:refresh-channel-members",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-subscriptions-manager.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/services/chat-subscriptions-manager.js",
     "lineNumber": 469,
     "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-tracking-state-manager.js",
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/services/chat-tracking-state-manager.js",
     "lineNumber": 110,
     "args": [],
     "comments": null
   },
   {
     "eventId": "chat:toggle-expand",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat.js",
-    "lineNumber": 452,
+    "filePath": "discourse/plugins/chat/assets/javascripts/discourse/services/chat.js",
+    "lineNumber": 453,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2533,8 +2702,76 @@
     "comments": null
   },
   {
+    "eventId": "user-status:changed",
+    "filePath": "discourse/plugins/chat/test/javascripts/components/chat-channel-test.gjs",
+    "lineNumber": 91,
+    "args": [
+      {
+        "argValue": [
+          {
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "user-status:changed",
+    "filePath": "discourse/plugins/chat/test/javascripts/components/chat-channel-test.gjs",
+    "lineNumber": 105,
+    "args": [
+      {
+        "argValue": [
+          {
+            "valueType": "undefined"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "user-status:changed",
+    "filePath": "discourse/plugins/chat/test/javascripts/components/chat-channel-test.gjs",
+    "lineNumber": 136,
+    "args": [
+      {
+        "argValue": [
+          {
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "user-status:changed",
+    "filePath": "discourse/plugins/chat/test/javascripts/components/chat-channel-test.gjs",
+    "lineNumber": 151,
+    "args": [
+      {
+        "argValue": [
+          {
+            "valueType": "undefined"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "poll:voted",
-    "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
+    "filePath": "discourse/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
     "lineNumber": 190,
     "args": [
       {
@@ -2557,7 +2794,7 @@
   },
   {
     "eventId": "poll:voted",
-    "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
+    "filePath": "discourse/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
     "lineNumber": 448,
     "args": [
       {
