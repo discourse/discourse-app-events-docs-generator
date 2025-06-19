@@ -33,10 +33,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: discourse/discourse
-          path: "../discourse"
+          path: "discourse"
 
       - name: Create .env file
-        run: echo "DISCOURSE_CORE=../discourse" > .env
+        run: echo "DISCOURSE_CORE=discourse" > .env
 
       - name: Extract App Events
         run: node ./scripts/extract_app_events.mjs
