@@ -1001,7 +1001,7 @@
   {
     "eventId": "header:update-topic",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1838,
+    "lineNumber": 1840,
     "args": [
       {
         "argValue": "topic",
@@ -1014,7 +1014,7 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/controllers/topic.js",
-    "lineNumber": 1973,
+    "lineNumber": 1976,
     "args": [
       {
         "argValue": [
@@ -1809,14 +1809,14 @@
   {
     "eventId": "post-stream:refresh",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
-    "lineNumber": 446,
+    "lineNumber": 448,
     "args": [],
     "comments": "TODO (glimmer-post-stream) the Glimmer Post Stream does not listen to this event"
   },
   {
     "eventId": "post:show-revision",
     "filePath": "/app/assets/javascripts/discourse/app/models/post-stream.js",
-    "lineNumber": 1320,
+    "lineNumber": 1322,
     "args": [
       {
         "argValue": "copy.postNumber",
@@ -3127,7 +3127,7 @@
   {
     "eventId": "calendar:invitee-left-event",
     "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 41,
+    "lineNumber": 42,
     "args": [
       {
         "argValue": [
@@ -3149,7 +3149,7 @@
   {
     "eventId": "calendar:update-invitee-status",
     "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 55,
+    "lineNumber": 56,
     "args": [
       {
         "argValue": [
@@ -3171,7 +3171,7 @@
   {
     "eventId": "calendar:create-invitee-status",
     "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 69,
+    "lineNumber": 70,
     "args": [
       {
         "argValue": [
@@ -3387,7 +3387,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group-reports-show.js",
-    "lineNumber": 120,
+    "lineNumber": 121,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",

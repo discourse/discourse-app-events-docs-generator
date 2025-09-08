@@ -90,7 +90,7 @@ No arguments passed to this event.
 | 1        | bookmarkFormData.saveData | property        | -           |
 | 2        | bookmark.attachedTo       | called_function | -           |
 
-##### /plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group-reports-show.js#120 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group-reports-show.js#L120)
+##### /plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group-reports-show.js#121 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group-reports-show.js#L121)
 
 | Position | Argument                  | Type            | Description |
 | -------- | ------------------------- | --------------- | ----------- |
@@ -101,7 +101,7 @@ No arguments passed to this event.
 
 
 ### calendar
-#### calendar:create-invitee-status [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L69)
+#### calendar:create-invitee-status [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L70)
 
 | Position | Argument          | Type     | Always Present | Description |
 | -------- | ----------------- | -------- | -------------- | ----------- |
@@ -109,7 +109,7 @@ No arguments passed to this event.
 | -        | objectArg1.status | variable | True           | -           |
 | -        | objectArg1.postId | property | True           | -           |
 
-#### calendar:invitee-left-event [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L41)
+#### calendar:invitee-left-event [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L42)
 
 | Position | Argument           | Type     | Always Present | Description |
 | -------- | ------------------ | -------- | -------------- | ----------- |
@@ -117,7 +117,7 @@ No arguments passed to this event.
 | -        | objectArg1.invitee | variable | True           | -           |
 | -        | objectArg1.postId  | property | True           | -           |
 
-#### calendar:update-invitee-status [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L55)
+#### calendar:update-invitee-status [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs#L56)
 
 | Position | Argument          | Type     | Always Present | Description |
 | -------- | ----------------- | -------- | -------------- | ----------- |
@@ -880,7 +880,7 @@ No arguments passed to this event.
 | -------- | -------- | -------- | -------------- | ----------- |
 | 1        | topic1   | variable | True           | -           |
 
-#### header:update-topic [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1838)
+#### header:update-topic [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1840)
 
 | Position | Argument       | Type     | Always Present | Description |
 | -------- | -------------- | -------- | -------------- | ----------- |
@@ -888,7 +888,7 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /app/assets/javascripts/discourse/app/controllers/topic.js#1838 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1838)
+##### /app/assets/javascripts/discourse/app/controllers/topic.js#1840 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1840)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -1202,7 +1202,7 @@ No arguments passed to this event.
 
 </details>
 
-#### post:show-revision [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/models/post-stream.js#L1320)
+#### post:show-revision [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/models/post-stream.js#L1322)
 
 | Position | Argument            | Type     | Always Present | Description |
 | -------- | ------------------- | -------- | -------------- | ----------- |
@@ -1352,7 +1352,7 @@ No arguments passed to this event.
 | -------- | -------- | -------- | ----------- |
 | 1        | args     | variable | -           |
 
-##### /app/assets/javascripts/discourse/app/controllers/topic.js#1973 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1973)
+##### /app/assets/javascripts/discourse/app/controllers/topic.js#1976 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/controllers/topic.js#L1976)
 
 | Position | Argument      | Type            | Description |
 | -------- | ------------- | --------------- | ----------- |
@@ -1402,7 +1402,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-##### /app/assets/javascripts/discourse/app/models/post-stream.js#446 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/models/post-stream.js#L446)
+##### /app/assets/javascripts/discourse/app/models/post-stream.js#448 [:link:](https://github.com/discourse/discourse/blob/main/app/assets/javascripts/discourse/app/models/post-stream.js#L448)
 
 No arguments passed to this event.
 
