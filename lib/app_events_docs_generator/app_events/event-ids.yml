@@ -23,6 +23,7 @@ app_event_ids:
 - composer-messages:create
 - composer-service:last-validated-at-cleared
 - composer-service:last-validated-at-updated
+- composer:add-files
 - composer:cancel-upload
 - composer:cancelled
 - composer:created-post
@@ -47,7 +48,6 @@ app_event_ids:
 - cta:shown
 - d-editor:preview-click-group-card
 - d-editor:preview-click-user-card
-- decorate-non-stream-cooked-element
 - desktop-notification-opened
 - destroyed-custom-html:this.name
 - discourse-ai:bot-header-icon-clicked
@@ -86,8 +86,6 @@ app_event_ids:
 - post-stream:filter-show-all
 - post-stream:filter-upwards
 - post-stream:gap-expanded
-- post-stream:posted
-- post-stream:refresh
 - post:created
 - post:highlight
 - post:show-revision
@@ -123,7 +121,6 @@ app_event_ids:
 - topic:keyboard-trigger
 - topic:scrolled
 - topic:timings-sent
-- undefined
 - upload-mixin:this.config.id:all-uploads-complete
 - upload-mixin:this.config.id:in-progress-uploads
 - upload-mixin:this.config.id:upload-cancelled
