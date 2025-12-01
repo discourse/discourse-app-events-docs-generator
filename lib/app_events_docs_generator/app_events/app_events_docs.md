@@ -714,7 +714,7 @@ No arguments passed to this event.
 | -        | objectArg1.slug  | property | True           | -           |
 | -        | objectArg1.title | variable | True           | -           |
 
-#### discourse-ai:force-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L100)
+#### discourse-ai:force-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L105)
 
 No arguments passed to this event.
 
@@ -722,7 +722,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### discourse-ai:stop-forcing-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L161)
+#### discourse-ai:stop-forcing-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L166)
 
 No arguments passed to this event.
 

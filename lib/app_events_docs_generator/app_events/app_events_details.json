@@ -2409,14 +2409,14 @@
   {
     "eventId": "discourse-ai:force-conversations-sidebar",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js",
-    "lineNumber": 100,
+    "lineNumber": 105,
     "args": [],
     "comments": null
   },
   {
     "eventId": "discourse-ai:stop-forcing-conversations-sidebar",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js",
-    "lineNumber": 161,
+    "lineNumber": 166,
     "args": [],
     "comments": null
   },
