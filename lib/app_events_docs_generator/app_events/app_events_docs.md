@@ -151,7 +151,7 @@ No arguments passed to this event.
 | -------- | ------------------- | -------- | -------------- | ----------- |
 | 1        | result1.interaction | property | True           | -           |
 
-#### chat:modify-selection [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L77)
+#### chat:modify-selection [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L76)
 
 | Position | Argument           | Type     | Always Present | Description |
 | -------- | ------------------ | -------- | -------------- | ----------- |
@@ -160,7 +160,7 @@ No arguments passed to this event.
 | -        | objectArg2.type    | variable | True           | -           |
 | -        | objectArg2.context | property | True           | -           |
 
-#### chat:open-insert-link-modal [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L89)
+#### chat:open-insert-link-modal [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L88)
 
 | Position | Argument           | Type     | Always Present | Description |
 | -------- | ------------------ | -------- | -------------- | ----------- |
@@ -198,7 +198,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### chat:toggle-close [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L117)
+#### chat:toggle-close [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L113)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
@@ -206,7 +206,7 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#117 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L117)
+##### /plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#113 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js#L113)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -254,21 +254,21 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### composer:cancelled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1654)
+#### composer:cancelled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1660)
 
 No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/services/composer.js#1654 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1654)
+##### /frontend/discourse/app/services/composer.js#1660 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1660)
 
 No arguments passed to this event.
 
-##### /frontend/discourse/app/services/composer.js#1669 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1669)
+##### /frontend/discourse/app/services/composer.js#1675 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1675)
 
 No arguments passed to this event.
 
-##### /frontend/discourse/app/services/composer.js#1686 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1686)
+##### /frontend/discourse/app/services/composer.js#1692 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1692)
 
 No arguments passed to this event.
 
@@ -626,7 +626,7 @@ No arguments passed to this event.
 
 
 ### composer-service
-#### composer-service:last-validated-at-cleared [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1855)
+#### composer-service:last-validated-at-cleared [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1861)
 
 No arguments passed to this event.
 
@@ -728,7 +728,7 @@ No arguments passed to this event.
 
 
 ### discourse-reactions
-#### discourse-reactions:reaction-toggled [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js#L15)
+#### discourse-reactions:reaction-toggled [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js#L17)
 
 | Position | Argument            | Type     | Always Present | Description |
 | -------- | ------------------- | -------- | -------------- | ----------- |
@@ -779,13 +779,13 @@ No arguments passed to this event.
 
 
 ### dom
-#### dom:clean [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/instance-initializers/clean-dom-on-route-change.js#L35)
+#### dom:clean [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/instance-initializers/clean-dom-on-route-change.js#L28)
 
 No arguments passed to this event.
 
 
 ### draft
-#### draft:destroyed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1635)
+#### draft:destroyed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1641)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
@@ -915,7 +915,7 @@ No arguments passed to this event.
 | -------- | -------------- | -------- | ----------- |
 | 1        | composer.topic | property | -           |
 
-##### /plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#502 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#L502)
+##### /plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#506 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#L506)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -1363,7 +1363,7 @@ No arguments passed to this event.
 
 
 ### topic-entrance
-#### topic-entrance:show [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/basic-topic-list.gjs#L89)
+#### topic-entrance:show [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/basic-topic-list.gjs#L72)
 
 | Position | Argument            | Type            | Always Present | Description |
 | -------- | ------------------- | --------------- | -------------- | ----------- |
@@ -1373,7 +1373,7 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/components/basic-topic-list.gjs#89 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/basic-topic-list.gjs#L89)
+##### /frontend/discourse/app/components/basic-topic-list.gjs#72 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/basic-topic-list.gjs#L72)
 
 | Position | Argument            | Type            | Description |
 | -------- | ------------------- | --------------- | ----------- |
