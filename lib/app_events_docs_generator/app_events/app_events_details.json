@@ -9,7 +9,7 @@
   {
     "eventId": "topic-entrance:show",
     "filePath": "/frontend/discourse/app/components/basic-topic-list.gjs",
-    "lineNumber": 89,
+    "lineNumber": 72,
     "args": [
       {
         "argValue": [
@@ -789,7 +789,7 @@
   {
     "eventId": "dom:clean",
     "filePath": "/frontend/discourse/app/instance-initializers/clean-dom-on-route-change.js",
-    "lineNumber": 35,
+    "lineNumber": 28,
     "args": [],
     "comments": null
   },
@@ -1805,7 +1805,7 @@
   {
     "eventId": "draft:destroyed",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1635,
+    "lineNumber": 1641,
     "args": [
       {
         "argValue": "key",
@@ -1818,28 +1818,28 @@
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1654,
+    "lineNumber": 1660,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1669,
+    "lineNumber": 1675,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1686,
+    "lineNumber": 1692,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-service:last-validated-at-cleared",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1855,
+    "lineNumber": 1861,
     "args": [],
     "comments": null
   },
@@ -2174,7 +2174,7 @@
   {
     "eventId": "chat:modify-selection",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 77,
+    "lineNumber": 76,
     "args": [
       {
         "argValue": "event",
@@ -2201,7 +2201,7 @@
   {
     "eventId": "chat:open-insert-link-modal",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 89,
+    "lineNumber": 88,
     "args": [
       {
         "argValue": "event",
@@ -2224,7 +2224,7 @@
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 117,
+    "lineNumber": 113,
     "args": [
       {
         "argValue": "event",
@@ -2441,7 +2441,7 @@
   {
     "eventId": "header:update-topic",
     "filePath": "/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js",
-    "lineNumber": 502,
+    "lineNumber": 506,
     "args": [
       {
         "argValue": "topic",
@@ -2754,7 +2754,7 @@
   {
     "eventId": "discourse-reactions:reaction-toggled",
     "filePath": "/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js",
-    "lineNumber": 15,
+    "lineNumber": 17,
     "args": [
       {
         "argValue": [
