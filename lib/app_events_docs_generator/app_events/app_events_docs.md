@@ -13,7 +13,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-##### /plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/queries/details.js#137 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/queries/details.js#L137)
+##### /plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/queries/details.js#138 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/queries/details.js#L138)
 
 No arguments passed to this event.
 
@@ -44,7 +44,7 @@ No arguments passed to this event.
 | 1        | savedData1           | variable        | -           |
 | 2        | bookmark1.attachedTo | called_function | -           |
 
-##### /frontend/discourse/app/controllers/topic.js#1510 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1510)
+##### /frontend/discourse/app/controllers/topic.js#1578 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1578)
 
 | Position | Argument                  | Type            | Description |
 | -------- | ------------------------- | --------------- | ----------- |
@@ -58,7 +58,7 @@ No arguments passed to this event.
 | 1        | bookmarkFormData.saveData     | property        | -           |
 | 2        | this.bookmarkModel.attachedTo | called_function | -           |
 
-##### /frontend/discourse/app/models/post.js#688 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post.js#L688)
+##### /frontend/discourse/app/models/post.js#691 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post.js#L691)
 
 | Position | Argument            | Type     | Description |
 | -------- | ------------------- | -------- | ----------- |
@@ -67,7 +67,7 @@ No arguments passed to this event.
 | -        | objectArg2.target   | string   | -           |
 | -        | objectArg2.targetId | property | -           |
 
-##### /frontend/discourse/app/models/post.js#708 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post.js#L708)
+##### /frontend/discourse/app/models/post.js#711 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post.js#L711)
 
 | Position | Argument            | Type     | Description |
 | -------- | ------------------- | -------- | ----------- |
@@ -232,7 +232,7 @@ No arguments passed to this event.
 | -------- | -------------------------------------- | -------- | ----------- |
 | 1        | this.chatStateManager.isDrawerExpanded | property | -           |
 
-##### /plugins/chat/assets/javascripts/discourse/services/chat.js#437 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/services/chat.js#L437)
+##### /plugins/chat/assets/javascripts/discourse/services/chat.js#463 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/services/chat.js#L463)
 
 | Position | Argument                               | Type     | Description |
 | -------- | -------------------------------------- | -------- | ----------- |
@@ -242,7 +242,7 @@ No arguments passed to this event.
 
 
 ### composer
-#### composer:add-files [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/static/prosemirror/extensions/image.js#L438)
+#### composer:add-files [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/static/prosemirror/extensions/image.js#L460)
 
 | Position | Argument                   | Type      | Always Present | Description |
 | -------- | -------------------------- | --------- | -------------- | ----------- |
@@ -250,31 +250,31 @@ No arguments passed to this event.
 | 2        | objectArg2                 | object    | True           | -           |
 | -        | objectArg2.skipPlaceholder | boolean   | True           | -           |
 
-#### composer:cancel-upload [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L673)
+#### composer:cancel-upload [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L686)
 
 No arguments passed to this event.
 
-#### composer:cancelled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1660)
+#### composer:cancelled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1707)
 
 No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/services/composer.js#1660 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1660)
+##### /frontend/discourse/app/services/composer.js#1707 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1707)
 
 No arguments passed to this event.
 
-##### /frontend/discourse/app/services/composer.js#1675 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1675)
+##### /frontend/discourse/app/services/composer.js#1722 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1722)
 
 No arguments passed to this event.
 
-##### /frontend/discourse/app/services/composer.js#1692 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1692)
+##### /frontend/discourse/app/services/composer.js#1739 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1739)
 
 No arguments passed to this event.
 
 </details>
 
-#### composer:created-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1208)
+#### composer:created-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1255)
 
 | Position | Argument          | Type     | Always Present | Description |
 | -------- | ----------------- | -------- | -------------- | ----------- |
@@ -285,7 +285,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### composer:edited-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1201)
+#### composer:edited-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1248)
 
 No arguments passed to this event.
 
@@ -293,7 +293,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### composer:insert-block [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L535)
+#### composer:insert-block [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L562)
 
 | Position | Argument         | Type     | Always Present | Description |
 | -------- | ---------------- | -------- | -------------- | ----------- |
@@ -301,13 +301,13 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/controllers/topic.js#535 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L535)
+##### /frontend/discourse/app/controllers/topic.js#562 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L562)
 
 | Position | Argument   | Type     | Description |
 | -------- | ---------- | -------- | ----------- |
 | 1        | quotedText | variable | -           |
 
-##### /frontend/discourse/app/controllers/topic.js#777 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L777)
+##### /frontend/discourse/app/controllers/topic.js#804 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L804)
 
 | Position | Argument        | Type            | Description |
 | -------- | --------------- | --------------- | ----------- |
@@ -335,7 +335,7 @@ No arguments passed to this event.
 | 2        | objectArg2                  | object   | True           | -           |
 | -        | objectArg2.ensureSpace      | boolean  | True           | -           |
 
-#### composer:open [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1467)
+#### composer:open [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1514)
 
 | Position | Argument         | Type     | Always Present | Description |
 | -------- | ---------------- | -------- | -------------- | ----------- |
@@ -346,7 +346,7 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### composer:preview-toggled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L163)
+#### composer:preview-toggled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L165)
 
 | Position | Argument              | Type     | Always Present | Description |
 | -------- | --------------------- | -------- | -------------- | ----------- |
@@ -405,7 +405,7 @@ No arguments passed to this event.
 
 </details>
 
-#### composer:saved [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1183)
+#### composer:saved [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1230)
 
 No arguments passed to this event.
 
@@ -413,13 +413,13 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### composer:toolbar-popup-menu-button-clicked [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L702)
+#### composer:toolbar-popup-menu-button-clicked [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L715)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
 | 1        | menuItem | variable | True           | -           |
 
-#### composer:typed-reply [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1324)
+#### composer:typed-reply [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1371)
 
 No arguments passed to this event.
 
@@ -541,13 +541,13 @@ No arguments passed to this event.
 
 
 ### composer-messages
-#### composer-messages:close [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L918)
+#### composer-messages:close [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L965)
 
 No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/services/composer.js#918 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L918)
+##### /frontend/discourse/app/services/composer.js#965 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L965)
 
 No arguments passed to this event.
 
@@ -557,7 +557,7 @@ No arguments passed to this event.
 
 </details>
 
-#### composer-messages:create [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L794)
+#### composer-messages:create [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L807)
 
 | Position | Argument                | Type            | Always Present | Description |
 | -------- | ----------------------- | --------------- | -------------- | ----------- |
@@ -568,7 +568,7 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/services/composer.js#794 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L794)
+##### /frontend/discourse/app/services/composer.js#807 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L807)
 
 | Position | Argument                | Type            | Description |
 | -------- | ----------------------- | --------------- | ----------- |
@@ -577,7 +577,7 @@ No arguments passed to this event.
 | -        | objectArg1.templateName | string          | -           |
 | -        | objectArg1.body         | called_function | -           |
 
-##### /frontend/discourse/app/services/composer.js#804 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L804)
+##### /frontend/discourse/app/services/composer.js#817 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L817)
 
 | Position | Argument                | Type            | Description |
 | -------- | ----------------------- | --------------- | ----------- |
@@ -586,7 +586,7 @@ No arguments passed to this event.
 | -        | objectArg1.templateName | string          | -           |
 | -        | objectArg1.body         | called_function | -           |
 
-##### /frontend/discourse/app/services/composer.js#969 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L969)
+##### /frontend/discourse/app/services/composer.js#1016 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1016)
 
 | Position | Argument                | Type     | Description |
 | -------- | ----------------------- | -------- | ----------- |
@@ -595,7 +595,7 @@ No arguments passed to this event.
 | -        | objectArg1.templateName | string   | -           |
 | -        | objectArg1.body         | variable | -           |
 
-##### /frontend/discourse/app/services/composer.js#993 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L993)
+##### /frontend/discourse/app/services/composer.js#1040 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1040)
 
 | Position | Argument                | Type     | Description |
 | -------- | ----------------------- | -------- | ----------- |
@@ -604,7 +604,7 @@ No arguments passed to this event.
 | -        | objectArg1.templateName | string   | -           |
 | -        | objectArg1.body         | variable | -           |
 
-##### /frontend/discourse/app/services/composer.js#1002 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1002)
+##### /frontend/discourse/app/services/composer.js#1049 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1049)
 
 | Position | Argument                | Type            | Description |
 | -------- | ----------------------- | --------------- | ----------- |
@@ -626,11 +626,11 @@ No arguments passed to this event.
 
 
 ### composer-service
-#### composer-service:last-validated-at-cleared [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1861)
+#### composer-service:last-validated-at-cleared [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1908)
 
 No arguments passed to this event.
 
-#### composer-service:last-validated-at-updated [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1073)
+#### composer-service:last-validated-at-updated [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1120)
 
 | Position | Argument         | Type     | Always Present | Description |
 | -------- | ---------------- | -------- | -------------- | ----------- |
@@ -639,14 +639,14 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/services/composer.js#1073 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1073)
+##### /frontend/discourse/app/services/composer.js#1120 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1120)
 
 | Position | Argument         | Type     | Description |
 | -------- | ---------------- | -------- | ----------- |
 | 1        | objectArg1       | object   | -           |
 | -        | objectArg1.model | variable | -           |
 
-##### /frontend/discourse/app/services/composer.js#1282 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1282)
+##### /frontend/discourse/app/services/composer.js#1329 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1329)
 
 | Position | Argument         | Type     | Description |
 | -------- | ---------------- | -------- | ----------- |
@@ -722,13 +722,13 @@ No arguments passed to this event.
 
 No arguments passed to this event.
 
-#### discourse-ai:stop-forcing-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L166)
+#### discourse-ai:stop-forcing-conversations-sidebar [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js#L169)
 
 No arguments passed to this event.
 
 
 ### discourse-reactions
-#### discourse-reactions:reaction-toggled [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js#L17)
+#### discourse-reactions:reaction-toggled [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js#L19)
 
 | Position | Argument            | Type     | Always Present | Description |
 | -------- | ------------------- | -------- | -------------- | ----------- |
@@ -771,7 +771,7 @@ No arguments passed to this event.
 
 
 ### do-not-disturb
-#### do-not-disturb:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1291)
+#### do-not-disturb:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1292)
 
 | Position | Argument                  | Type     | Always Present | Description |
 | -------- | ------------------------- | -------- | -------------- | ----------- |
@@ -785,7 +785,7 @@ No arguments passed to this event.
 
 
 ### draft
-#### draft:destroyed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1641)
+#### draft:destroyed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1688)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
@@ -793,7 +793,7 @@ No arguments passed to this event.
 
 
 ### emoji-picker
-#### emoji-picker:close [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L913)
+#### emoji-picker:close [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L960)
 
 No arguments passed to this event.
 
@@ -882,7 +882,7 @@ No arguments passed to this event.
 | -------- | -------- | -------- | -------------- | ----------- |
 | 1        | topic1   | variable | True           | -           |
 
-#### header:update-topic [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1843)
+#### header:update-topic [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1911)
 
 | Position | Argument       | Type     | Always Present | Description |
 | -------- | -------------- | -------- | -------------- | ----------- |
@@ -890,7 +890,7 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/controllers/topic.js#1843 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1843)
+##### /frontend/discourse/app/controllers/topic.js#1911 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1911)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -909,13 +909,13 @@ No arguments passed to this event.
 | -------- | -------- | -------- | ----------- |
 | 1        | model    | variable | -           |
 
-##### /frontend/discourse/app/services/composer.js#1203 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1203)
+##### /frontend/discourse/app/services/composer.js#1250 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1250)
 
 | Position | Argument       | Type     | Description |
 | -------- | -------------- | -------- | ----------- |
 | 1        | composer.topic | property | -           |
 
-##### /plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#506 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#L506)
+##### /plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#505 [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js#L505)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -984,6 +984,14 @@ No arguments passed to this event.
 <details><summary>Detailed List</summary>
 
 ##### /frontend/discourse/app/instance-initializers/subscribe-user-notifications.js#160 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/instance-initializers/subscribe-user-notifications.js#L160)
+
+No arguments passed to this event.
+
+##### /plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js#64 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js#L64)
+
+No arguments passed to this event.
+
+##### /plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js#81 [:link:](https://github.com/discourse/discourse/blob/main/plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js#L81)
 
 No arguments passed to this event.
 
@@ -1089,13 +1097,13 @@ No arguments passed to this event.
 
 </details>
 
-#### page:compose-reply [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L755)
+#### page:compose-reply [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L782)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
 | 1        | topic    | variable | True           | -           |
 
-#### page:like-toggled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/post.gjs#L237)
+#### page:like-toggled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/post.gjs#L247)
 
 | Position | Argument    | Type     | Always Present | Description |
 | -------- | ----------- | -------- | -------------- | ----------- |
@@ -1110,7 +1118,7 @@ No arguments passed to this event.
 
 
 ### policy
-#### policy:changed [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-policy/assets/javascripts/discourse/initializers/extend-for-policy.gjs#L89)
+#### policy:changed [:link:](https://github.com/discourse/discourse/blob/main/plugins/discourse-policy/assets/javascripts/discourse/initializers/extend-for-policy.gjs#L97)
 
 | Position | Argument              | Type     | Always Present | Description |
 | -------- | --------------------- | -------- | -------------- | ----------- |
@@ -1177,7 +1185,7 @@ No arguments passed to this event.
 | -------- | -------- | -------- | ----------- |
 | 1        | closest  | variable | -           |
 
-##### /frontend/discourse/app/services/composer.js#1211 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1211)
+##### /frontend/discourse/app/services/composer.js#1258 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/services/composer.js#L1258)
 
 | Position | Argument                   | Type     | Description |
 | -------- | -------------------------- | -------- | ----------- |
@@ -1186,7 +1194,7 @@ No arguments passed to this event.
 
 </details>
 
-#### post:show-revision [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L1306)
+#### post:show-revision [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L1317)
 
 | Position | Argument            | Type     | Always Present | Description |
 | -------- | ------------------- | -------- | -------------- | ----------- |
@@ -1195,7 +1203,7 @@ No arguments passed to this event.
 
 
 ### post-stream
-#### post-stream:filter-replies [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L278)
+#### post-stream:filter-replies [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L311)
 
 | Position | Argument               | Type     | Always Present | Description |
 | -------- | ---------------------- | -------- | -------------- | ----------- |
@@ -1210,7 +1218,7 @@ No arguments passed to this event.
 | -------- | ----------------------- | -------- | -------------- | ----------- |
 | 1        | this.args.streamFilters | property | True           | -           |
 
-#### post-stream:filter-upwards [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L305)
+#### post-stream:filter-upwards [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/post-stream.js#L334)
 
 | Position | Argument            | Type     | Always Present | Description |
 | -------- | ------------------- | -------- | -------------- | ----------- |
@@ -1237,7 +1245,7 @@ No arguments passed to this event.
 
 
 ### reviewablenote
-#### reviewablenote:created [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/reviewable-refresh/note-form.gjs#L62)
+#### reviewablenote:created [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/components/reviewable-refresh/note-form.gjs#L61)
 
 | Position | Argument             | Type     | Always Present | Description |
 | -------- | -------------------- | -------- | -------------- | ----------- |
@@ -1305,14 +1313,14 @@ No arguments passed to this event.
 | 1        | createdPost | variable | True           | -           |
 | 2        | this        | this     | True           | -           |
 
-#### topic:current-post-changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L585)
+#### topic:current-post-changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L612)
 
 | Position | Argument        | Type     | Always Present | Description |
 | -------- | --------------- | -------- | -------------- | ----------- |
 | 1        | objectArg1      | object   | True           | -           |
 | -        | objectArg1.post | variable | True           | -           |
 
-#### topic:current-post-scrolled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L592)
+#### topic:current-post-scrolled [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L619)
 
 | Position | Argument             | Type            | Always Present | Description |
 | -------- | -------------------- | --------------- | -------------- | ----------- |
@@ -1320,7 +1328,7 @@ No arguments passed to this event.
 | -        | objectArg1.postIndex | property        | True           | -           |
 | -        | objectArg1.percent   | called_function | True           | -           |
 
-#### topic:jump-to-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1085)
+#### topic:jump-to-post [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1112)
 
 | Position | Argument | Type            | Always Present | Description |
 | -------- | -------- | --------------- | -------------- | ----------- |
@@ -1328,13 +1336,13 @@ No arguments passed to this event.
 
 <details><summary>Detailed List</summary>
 
-##### /frontend/discourse/app/controllers/topic.js#1085 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1085)
+##### /frontend/discourse/app/controllers/topic.js#1112 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1112)
 
 | Position | Argument | Type            | Description |
 | -------- | -------- | --------------- | ----------- |
 | 1        | this.get | called_function | -           |
 
-##### /frontend/discourse/app/controllers/topic.js#1478 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1478)
+##### /frontend/discourse/app/controllers/topic.js#1546 [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/controllers/topic.js#L1546)
 
 | Position | Argument | Type     | Description |
 | -------- | -------- | -------- | ----------- |
@@ -1474,7 +1482,7 @@ No arguments passed to this event.
 
 
 ### user-drafts
-#### user-drafts:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1297)
+#### user-drafts:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1298)
 
 No arguments passed to this event.
 
@@ -1500,7 +1508,7 @@ No arguments passed to this event.
 
 
 ### user-reviewable-count
-#### user-reviewable-count:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1302)
+#### user-reviewable-count:changed [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/models/user.js#L1303)
 
 | Position | Argument | Type     | Always Present | Description |
 | -------- | -------- | -------- | -------------- | ----------- |
@@ -1574,7 +1582,7 @@ No arguments passed to this event.
 | 1        | objectArg1     | object   | True           | -           |
 | -        | objectArg1.url | property | True           | -           |
 
-#### REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/lib/plugin-api.gjs#L2172)
+#### REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME [:link:](https://github.com/discourse/discourse/blob/main/frontend/discourse/app/lib/plugin-api.gjs#L2254)
 
 No arguments passed to this event.
 
