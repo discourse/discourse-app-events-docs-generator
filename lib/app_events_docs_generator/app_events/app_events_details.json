@@ -2,27 +2,18 @@
   {
     "eventId": "ace:resize",
     "filePath": "/frontend/discourse/admin/components/admin-theme-editor.gjs",
-    "lineNumber": 118,
+    "lineNumber": 120,
     "args": [],
     "comments": null
   },
   {
-    "eventId": "topic-entrance:show",
-    "filePath": "/frontend/discourse/app/components/basic-topic-list.gjs",
-    "lineNumber": 72,
+    "eventId": "onboarding-step:completed",
+    "filePath": "/frontend/discourse/app/components/admin-onboarding/step.gjs",
+    "lineNumber": 52,
     "args": [
       {
-        "argValue": [
-          {
-            "key": "topic",
-            "valueType": "variable"
-          },
-          {
-            "key": "position",
-            "valueType": "called_function"
-          }
-        ],
-        "argType": "object",
+        "argValue": "this.name",
+        "argType": "property",
         "argPosition": 1
       }
     ],
@@ -31,7 +22,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/components/bookmark-list.gjs",
-    "lineNumber": 54,
+    "lineNumber": 58,
     "args": [
       {
         "argValue": "null",
@@ -49,7 +40,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/components/bookmark-list.gjs",
-    "lineNumber": 85,
+    "lineNumber": 89,
     "args": [
       {
         "argValue": "savedData1",
@@ -67,7 +58,7 @@
   {
     "eventId": "card:show",
     "filePath": "/frontend/discourse/app/components/card-contents-base.js",
-    "lineNumber": 64,
+    "lineNumber": 134,
     "args": [
       {
         "argValue": "username",
@@ -90,7 +81,7 @@
   {
     "eventId": "user-card:show",
     "filePath": "/frontend/discourse/app/components/card-contents-base.js",
-    "lineNumber": 89,
+    "lineNumber": 159,
     "args": [
       {
         "argValue": [
@@ -108,7 +99,7 @@
   {
     "eventId": "user-card:after-show",
     "filePath": "/frontend/discourse/app/components/card-contents-base.js",
-    "lineNumber": 94,
+    "lineNumber": 164,
     "args": [
       {
         "argValue": [
@@ -126,21 +117,21 @@
   {
     "eventId": "card:hide",
     "filePath": "/frontend/discourse/app/components/card-contents-base.js",
-    "lineNumber": 270,
+    "lineNumber": 316,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:find-similar",
     "filePath": "/frontend/discourse/app/components/composer-body.js",
-    "lineNumber": 57,
+    "lineNumber": 65,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resized",
     "filePath": "/frontend/discourse/app/components/composer-body.js",
-    "lineNumber": 73,
+    "lineNumber": 74,
     "args": [],
     "comments": null
   },
@@ -152,58 +143,96 @@
     "comments": null
   },
   {
+    "eventId": "composer:opened",
+    "filePath": "/frontend/discourse/app/components/composer-body.js",
+    "lineNumber": 129,
+    "args": [],
+    "comments": null
+  },
+  {
     "eventId": "composer:resize-started",
     "filePath": "/frontend/discourse/app/components/composer-container.gjs",
-    "lineNumber": 51,
+    "lineNumber": 209,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:div-resizing",
     "filePath": "/frontend/discourse/app/components/composer-container.gjs",
-    "lineNumber": 55,
+    "lineNumber": 213,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:resize-ended",
     "filePath": "/frontend/discourse/app/components/composer-container.gjs",
-    "lineNumber": 66,
+    "lineNumber": 227,
     "args": [],
-    "comments": null
+    "comments": "Announced before persisting, because the write can throw — storage quota —\nand a subscriber that undoes its own drag-time state has to hear the end of\nevery resize regardless."
   },
   {
     "eventId": "composer:resized",
     "filePath": "/frontend/discourse/app/components/composer-container.gjs",
-    "lineNumber": 72,
+    "lineNumber": 237,
     "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "this.composerEventPrefix:replace-text",
+    "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 297,
+    "args": [
+      {
+        "argValue": "match1",
+        "argType": "variable",
+        "argPosition": 1
+      },
+      {
+        "argValue": "replacement1",
+        "argType": "variable",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:reply-changed",
+    "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
+    "lineNumber": 336,
+    "args": [
+      {
+        "argValue": "this.composer.model",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:will-open",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 182,
+    "lineNumber": 367,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:will-close",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 186,
+    "lineNumber": 371,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:closed",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 188,
+    "lineNumber": 373,
     "args": [],
     "comments": "need to wait a bit for the \"slide down\" transition of the composer"
   },
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 511,
+    "lineNumber": 552,
     "args": [
       {
         "argValue": "matchingPlaceholder1.index1",
@@ -235,25 +264,7 @@
   {
     "eventId": "this.composerEventPrefix:replace-text",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 537,
-    "args": [
-      {
-        "argValue": "match1",
-        "argType": "variable",
-        "argPosition": 1
-      },
-      {
-        "argValue": "replacement1",
-        "argType": "variable",
-        "argPosition": 2
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "this.composerEventPrefix:replace-text",
-    "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 597,
+    "lineNumber": 618,
     "args": [
       {
         "argValue": "matchingPlaceholder1.index1",
@@ -285,7 +296,7 @@
   {
     "eventId": "this.composerEventPrefix:apply-surround",
     "filePath": "/frontend/discourse/app/components/composer-editor.gjs",
-    "lineNumber": 614,
+    "lineNumber": 635,
     "args": [
       {
         "argValue": "[grid]",
@@ -313,20 +324,6 @@
         "argPosition": 4
       }
     ],
-    "comments": null
-  },
-  {
-    "eventId": "inserted-custom-html:this.name",
-    "filePath": "/frontend/discourse/app/components/custom-html.js",
-    "lineNumber": 34,
-    "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "destroyed-custom-html:this.name",
-    "filePath": "/frontend/discourse/app/components/custom-html.js",
-    "lineNumber": 41,
-    "args": [],
     "comments": null
   },
   {
@@ -368,7 +365,7 @@
   {
     "eventId": "keyboard-visibility-change",
     "filePath": "/frontend/discourse/app/components/d-virtual-height.gjs",
-    "lineNumber": 59,
+    "lineNumber": 58,
     "args": [
       {
         "argValue": "keyboardVisible",
@@ -381,7 +378,7 @@
   {
     "eventId": "topic:scrolled",
     "filePath": "/frontend/discourse/app/components/discourse-topic.js",
-    "lineNumber": 102,
+    "lineNumber": 95,
     "args": [
       {
         "argValue": "offset",
@@ -392,22 +389,27 @@
     "comments": "Trigger a scrolled event"
   },
   {
-    "eventId": "topic-entrance:show",
-    "filePath": "/frontend/discourse/app/components/featured-topic.gjs",
-    "lineNumber": 14,
+    "eventId": "topic:toggle-progress-expansion",
+    "filePath": "/frontend/discourse/app/components/embed-mode-composer.gjs",
+    "lineNumber": 116,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "topic:toggle-progress-expansion",
+    "filePath": "/frontend/discourse/app/components/embed-topic-footer.gjs",
+    "lineNumber": 68,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "embed-composer:reply-to-post",
+    "filePath": "/frontend/discourse/app/components/embed-topic-footer.gjs",
+    "lineNumber": 86,
     "args": [
       {
-        "argValue": [
-          {
-            "key": "topic",
-            "valueType": "property"
-          },
-          {
-            "key": "position",
-            "valueType": "called_function"
-          }
-        ],
-        "argType": "object",
+        "argValue": "null",
+        "argType": "null",
         "argPosition": 1
       }
     ],
@@ -416,7 +418,7 @@
   {
     "eventId": "group:leave",
     "filePath": "/frontend/discourse/app/components/group-membership-button.gjs",
-    "lineNumber": 41,
+    "lineNumber": 40,
     "args": [
       {
         "argValue": "model1",
@@ -429,7 +431,7 @@
   {
     "eventId": "group:join",
     "filePath": "/frontend/discourse/app/components/group-membership-button.gjs",
-    "lineNumber": 53,
+    "lineNumber": 52,
     "args": [
       {
         "argValue": "group1",
@@ -463,28 +465,6 @@
     "comments": null
   },
   {
-    "eventId": "topic-entrance:show",
-    "filePath": "/frontend/discourse/app/components/mobile-category-topic.gjs",
-    "lineNumber": 19,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "topic",
-            "valueType": "property"
-          },
-          {
-            "key": "position",
-            "valueType": "called_function"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "header:show-topic",
     "filePath": "/frontend/discourse/app/components/modal/convert-to-public-topic.gjs",
     "lineNumber": 31,
@@ -498,9 +478,35 @@
     "comments": null
   },
   {
+    "eventId": "create-invite:saved",
+    "filePath": "/frontend/discourse/app/components/modal/create-invite-with-roles.gjs",
+    "lineNumber": 305,
+    "args": [
+      {
+        "argValue": "this.invite",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "create-invite:saved",
+    "filePath": "/frontend/discourse/app/components/modal/create-invite.gjs",
+    "lineNumber": 186,
+    "args": [
+      {
+        "argValue": "this.invite",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "flag:created",
     "filePath": "/frontend/discourse/app/components/modal/flag.gjs",
-    "lineNumber": 177,
+    "lineNumber": 169,
     "args": [
       {
         "argValue": [
@@ -514,6 +520,65 @@
           }
         ],
         "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:insert-text",
+    "filePath": "/frontend/discourse/app/components/modal/gifs.gjs",
+    "lineNumber": 67,
+    "args": [
+      {
+        "argValue": "markup1",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:add-files",
+    "filePath": "/frontend/discourse/app/components/modal/share-target.gjs",
+    "lineNumber": 91,
+    "args": [
+      {
+        "argValue": "files1",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "nested-replies:scroll-restored",
+    "filePath": "/frontend/discourse/app/components/nested/post.gjs",
+    "lineNumber": 87,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "nested-replies:post-unregistered",
+    "filePath": "/frontend/discourse/app/components/nested/post.gjs",
+    "lineNumber": 121,
+    "args": [
+      {
+        "argValue": "this.args.post",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "nested-replies:post-registered",
+    "filePath": "/frontend/discourse/app/components/nested/post.gjs",
+    "lineNumber": 466,
+    "args": [
+      {
+        "argValue": "this.args.post",
+        "argType": "property",
         "argPosition": 1
       }
     ],
@@ -553,7 +618,7 @@
   {
     "eventId": "page:like-toggled",
     "filePath": "/frontend/discourse/app/components/post.gjs",
-    "lineNumber": 237,
+    "lineNumber": 244,
     "args": [
       {
         "argValue": "post1",
@@ -570,8 +635,8 @@
   },
   {
     "eventId": "reviewablenote:created",
-    "filePath": "/frontend/discourse/app/components/reviewable-refresh/note-form.gjs",
-    "lineNumber": 62,
+    "filePath": "/frontend/discourse/app/components/reviewable/note-form.gjs",
+    "lineNumber": 57,
     "args": [
       {
         "argValue": "data1",
@@ -594,21 +659,34 @@
   {
     "eventId": "search-menu:search_menu_opened",
     "filePath": "/frontend/discourse/app/components/search-menu.gjs",
-    "lineNumber": 137,
+    "lineNumber": 175,
     "args": [],
     "comments": null
   },
   {
     "eventId": "sidebar-hamburger-dropdown:rendered",
     "filePath": "/frontend/discourse/app/components/sidebar/hamburger-dropdown.gjs",
-    "lineNumber": 25,
+    "lineNumber": 32,
     "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "tag-info:updated",
+    "filePath": "/frontend/discourse/app/components/tag-settings.gjs",
+    "lineNumber": 192,
+    "args": [
+      {
+        "argValue": "result1.tag_settings.id",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "user-menu:tab-click",
     "filePath": "/frontend/discourse/app/components/user-menu/menu.gjs",
-    "lineNumber": 262,
+    "lineNumber": 258,
     "args": [
       {
         "argValue": "tab1.id",
@@ -621,14 +699,28 @@
   {
     "eventId": "user-menu:rendered",
     "filePath": "/frontend/discourse/app/components/user-menu/menu.gjs",
-    "lineNumber": 267,
+    "lineNumber": 263,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "full-page-search:collapse-filters",
+    "filePath": "/frontend/discourse/app/controllers/full-page-search.js",
+    "lineNumber": 597,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "full-page-search:trigger-search",
+    "filePath": "/frontend/discourse/app/controllers/full-page-search.js",
+    "lineNumber": 601,
     "args": [],
     "comments": null
   },
   {
     "eventId": "search:search_result_view",
     "filePath": "/frontend/discourse/app/controllers/full-page-search.js",
-    "lineNumber": 491,
+    "lineNumber": 763,
     "args": [
       {
         "argValue": [
@@ -644,16 +736,104 @@
     "comments": null
   },
   {
-    "eventId": "full-page-search:trigger-search",
-    "filePath": "/frontend/discourse/app/controllers/full-page-search.js",
+    "eventId": "nested-replies:child-created",
+    "filePath": "/frontend/discourse/app/controllers/nested.js",
+    "lineNumber": 849,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "topicId",
+            "valueType": "variable"
+          },
+          {
+            "key": "post",
+            "valueType": "property"
+          },
+          {
+            "key": "parentPostNumber",
+            "valueType": "called_function"
+          },
+          {
+            "key": "isOwnPost",
+            "valueType": "undefined"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "nested-replies:activity-changed",
+    "filePath": "/frontend/discourse/app/controllers/nested.js",
+    "lineNumber": 889,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "topicId",
+            "valueType": "variable"
+          },
+          {
+            "key": "postId",
+            "valueType": "property"
+          },
+          {
+            "key": "type",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "embed-composer:reply-to-post",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
     "lineNumber": 599,
-    "args": [],
+    "args": [
+      {
+        "argValue": "post",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
     "eventId": "composer:insert-block",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 535,
+    "lineNumber": 601,
+    "args": [
+      {
+        "argValue": "quotedText",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "topic:quote-post",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 610,
+    "args": [
+      {
+        "argValue": "quoteEvent",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:insert-block",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 644,
     "args": [
       {
         "argValue": "quotedText",
@@ -666,7 +846,7 @@
   {
     "eventId": "topic:current-post-changed",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 585,
+    "lineNumber": 693,
     "args": [
       {
         "argValue": [
@@ -684,7 +864,7 @@
   {
     "eventId": "topic:current-post-scrolled",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 592,
+    "lineNumber": 700,
     "args": [
       {
         "argValue": [
@@ -706,7 +886,7 @@
   {
     "eventId": "page:compose-reply",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 755,
+    "lineNumber": 860,
     "args": [
       {
         "argValue": "topic",
@@ -717,9 +897,22 @@
     "comments": null
   },
   {
+    "eventId": "embed-composer:reply-to-post",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 872,
+    "args": [
+      {
+        "argValue": "post",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "composer:insert-block",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 777,
+    "lineNumber": 874,
     "args": [
       {
         "argValue": "quotedText.trim",
@@ -730,9 +923,48 @@
     "comments": null
   },
   {
+    "eventId": "composer:insert-block",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 891,
+    "args": [
+      {
+        "argValue": "quotedText.trim",
+        "argType": "called_function",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "embed-composer:edit-post",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 1071,
+    "args": [
+      {
+        "argValue": "post",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "topic:edit-post",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 1076,
+    "args": [
+      {
+        "argValue": "editEvent",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "topic:jump-to-post",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 1085,
+    "lineNumber": 1179,
     "args": [
       {
         "argValue": "this.get",
@@ -743,9 +975,35 @@
     "comments": null
   },
   {
+    "eventId": "header:update-topic",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 1686,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "header:update-topic",
+    "filePath": "/frontend/discourse/app/controllers/topic.js",
+    "lineNumber": 1849,
+    "args": [
+      {
+        "argValue": "topic",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "topic:jump-to-post",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 1478,
+    "lineNumber": 2154,
     "args": [
       {
         "argValue": "postId",
@@ -758,7 +1016,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 1510,
+    "lineNumber": 2182,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -774,19 +1032,6 @@
     "comments": null
   },
   {
-    "eventId": "header:update-topic",
-    "filePath": "/frontend/discourse/app/controllers/topic.js",
-    "lineNumber": 1843,
-    "args": [
-      {
-        "argValue": "topic",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "dom:clean",
     "filePath": "/frontend/discourse/app/instance-initializers/clean-dom-on-route-change.js",
     "lineNumber": 28,
@@ -794,30 +1039,23 @@
     "comments": null
   },
   {
-    "eventId": "site-header:force-refresh",
-    "filePath": "/frontend/discourse/app/instance-initializers/narrow-desktop.js",
-    "lineNumber": 26,
-    "args": [],
-    "comments": null
-  },
-  {
     "eventId": "cta:shown",
     "filePath": "/frontend/discourse/app/instance-initializers/signup-cta.js",
-    "lineNumber": 67,
+    "lineNumber": 72,
     "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
     "filePath": "/frontend/discourse/app/instance-initializers/subscribe-user-notifications.js",
-    "lineNumber": 160,
+    "lineNumber": 163,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/frontend/discourse/app/instance-initializers/subscribe-user-notifications.js",
-    "lineNumber": 168,
+    "lineNumber": 171,
     "args": [
       {
         "argValue": "null",
@@ -835,7 +1073,7 @@
   {
     "eventId": "user-status:changed",
     "filePath": "/frontend/discourse/app/instance-initializers/subscribe-user-notifications.js",
-    "lineNumber": 233,
+    "lineNumber": 236,
     "args": [
       {
         "argValue": "data",
@@ -848,7 +1086,7 @@
   {
     "eventId": "click-tracked",
     "filePath": "/frontend/discourse/app/lib/click-track.js",
-    "lineNumber": 98,
+    "lineNumber": 104,
     "args": [
       {
         "argValue": "href",
@@ -913,6 +1151,13 @@
     "comments": null
   },
   {
+    "eventId": "site-header:force-refresh",
+    "filePath": "/frontend/discourse/app/lib/narrow-desktop.js",
+    "lineNumber": 24,
+    "args": [],
+    "comments": null
+  },
+  {
     "eventId": "page:changed",
     "filePath": "/frontend/discourse/app/lib/page-tracker.js",
     "lineNumber": 42,
@@ -945,7 +1190,7 @@
   {
     "eventId": "REFRESH_USER_SIDEBAR_CATEGORIES_SECTION_COUNTS_APP_EVENT_NAME",
     "filePath": "/frontend/discourse/app/lib/plugin-api.gjs",
-    "lineNumber": 2172,
+    "lineNumber": 2500,
     "args": [],
     "comments": null
   },
@@ -968,35 +1213,9 @@
     "comments": null
   },
   {
-    "eventId": "this.eventPrefix:insert-text",
-    "filePath": "/frontend/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 447,
-    "args": [
-      {
-        "argValue": "table",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "this.eventPrefix:insert-text",
-    "filePath": "/frontend/discourse/app/lib/textarea-text-manipulation.js",
-    "lineNumber": 501,
-    "args": [
-      {
-        "argValue": "markdown",
-        "argType": "variable",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/lib/topic-bookmark-manager.js",
-    "lineNumber": 57,
+    "lineNumber": 60,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -1014,21 +1233,14 @@
   {
     "eventId": "this.composerEventPrefix:uploads-aborted",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 132,
-    "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "this.composerEventPrefix:uploads-aborted",
-    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 181,
+    "lineNumber": 167,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-cancelled",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 288,
+    "lineNumber": 274,
     "args": [
       {
         "argValue": "file.id",
@@ -1039,9 +1251,22 @@
     "comments": null
   },
   {
+    "eventId": "composer:upload-progress:file.id",
+    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 301,
+    "args": [
+      {
+        "argValue": "percentage",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "this.composerEventPrefix:upload-started",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 345,
+    "lineNumber": 335,
     "args": [
       {
         "argValue": "file.name",
@@ -1054,7 +1279,7 @@
   {
     "eventId": "this.composerEventPrefix:upload-success",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 390,
+    "lineNumber": 380,
     "args": [
       {
         "argValue": "file.name",
@@ -1072,21 +1297,42 @@
   {
     "eventId": "this.composerEventPrefix:all-uploads-complete",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 397,
+    "lineNumber": 387,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:uploads-cancelled",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 418,
+    "lineNumber": 408,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "this.composerEventPrefix:uploader-ready",
+    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 422,
+    "args": [],
+    "comments": "Signals that the uploader is bound and ready to accept files via the\n`${composerEventPrefix}:add-files` event, e.g. for content shared into\nthe composer through the Web Share Target."
+  },
+  {
+    "eventId": "this.composerEventPrefix:uploads-aborted",
+    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 426,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
+    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
+    "lineNumber": 498,
     "args": [],
     "comments": null
   },
   {
     "eventId": "this.composerEventPrefix:upload-error",
     "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 439,
+    "lineNumber": 584,
     "args": [
       {
         "argValue": "file",
@@ -1097,16 +1343,9 @@
     "comments": null
   },
   {
-    "eventId": "this.composerEventPrefix:uploads-preprocessing-complete",
-    "filePath": "/frontend/discourse/app/lib/uppy/composer-upload.js",
-    "lineNumber": 514,
-    "args": [],
-    "comments": null
-  },
-  {
     "eventId": "upload-mixin:this.config.id:upload-success",
     "filePath": "/frontend/discourse/app/lib/uppy/uppy-upload.js",
-    "lineNumber": 252,
+    "lineNumber": 268,
     "args": [
       {
         "argValue": "file.name",
@@ -1124,7 +1363,7 @@
   {
     "eventId": "upload-mixin:this.config.id:upload-success",
     "filePath": "/frontend/discourse/app/lib/uppy/uppy-upload.js",
-    "lineNumber": 273,
+    "lineNumber": 289,
     "args": [
       {
         "argValue": "file.name",
@@ -1142,7 +1381,7 @@
   {
     "eventId": "upload-mixin:this.config.id:upload-cancelled",
     "filePath": "/frontend/discourse/app/lib/uppy/uppy-upload.js",
-    "lineNumber": 307,
+    "lineNumber": 323,
     "args": [
       {
         "argValue": "file.id",
@@ -1155,14 +1394,14 @@
   {
     "eventId": "upload-mixin:this.config.id:uploads-cancelled",
     "filePath": "/frontend/discourse/app/lib/uppy/uppy-upload.js",
-    "lineNumber": 349,
+    "lineNumber": 365,
     "args": [],
     "comments": null
   },
   {
     "eventId": "upload-mixin:this.config.id:in-progress-uploads",
     "filePath": "/frontend/discourse/app/lib/uppy/uppy-upload.js",
-    "lineNumber": 385,
+    "lineNumber": 455,
     "args": [
       {
         "argValue": "this.inProgressUploads",
@@ -1180,9 +1419,16 @@
     "comments": null
   },
   {
+    "eventId": "nested:scroll-to-target",
+    "filePath": "/frontend/discourse/app/lib/url.js",
+    "lineNumber": 338,
+    "args": [],
+    "comments": "The nested context view caches its scroll target in the\ncomponent's lifecycle, so a plain refresh() wouldn't re-trigger\nit. Fire an event the view listens for instead."
+  },
+  {
     "eventId": "post:highlight",
     "filePath": "/frontend/discourse/app/lib/url.js",
-    "lineNumber": 366,
+    "lineNumber": 468,
     "args": [
       {
         "argValue": "closest",
@@ -1215,35 +1461,9 @@
     "comments": null
   },
   {
-    "eventId": "composer:reply-reloaded",
-    "filePath": "/frontend/discourse/app/models/composer.js",
-    "lineNumber": 1011,
-    "args": [
-      {
-        "argValue": "this",
-        "argType": "this",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "composer:reply-reloaded",
-    "filePath": "/frontend/discourse/app/models/composer.js",
-    "lineNumber": 1030,
-    "args": [
-      {
-        "argValue": "this",
-        "argType": "this",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
     "eventId": "post:created",
     "filePath": "/frontend/discourse/app/models/composer.js",
-    "lineNumber": 1276,
+    "lineNumber": 1316,
     "args": [
       {
         "argValue": "createdPost",
@@ -1256,7 +1476,7 @@
   {
     "eventId": "topic:created",
     "filePath": "/frontend/discourse/app/models/composer.js",
-    "lineNumber": 1278,
+    "lineNumber": 1318,
     "args": [
       {
         "argValue": "createdPost",
@@ -1272,9 +1492,35 @@
     "comments": null
   },
   {
+    "eventId": "composer:reply-reloaded",
+    "filePath": "/frontend/discourse/app/models/composer.js",
+    "lineNumber": 1617,
+    "args": [
+      {
+        "argValue": "this",
+        "argType": "this",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:reply-reloaded",
+    "filePath": "/frontend/discourse/app/models/composer.js",
+    "lineNumber": 1636,
+    "args": [
+      {
+        "argValue": "this",
+        "argType": "this",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "post-stream:filter-replies",
     "filePath": "/frontend/discourse/app/models/post-stream.js",
-    "lineNumber": 278,
+    "lineNumber": 335,
     "args": [
       {
         "argValue": [
@@ -1300,7 +1546,7 @@
   {
     "eventId": "post-stream:filter-upwards",
     "filePath": "/frontend/discourse/app/models/post-stream.js",
-    "lineNumber": 305,
+    "lineNumber": 358,
     "args": [
       {
         "argValue": [
@@ -1322,7 +1568,7 @@
   {
     "eventId": "post:show-revision",
     "filePath": "/frontend/discourse/app/models/post-stream.js",
-    "lineNumber": 1306,
+    "lineNumber": 1430,
     "args": [
       {
         "argValue": "copy.postNumber",
@@ -1340,7 +1586,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/models/post.js",
-    "lineNumber": 688,
+    "lineNumber": 828,
     "args": [
       {
         "argValue": "data",
@@ -1367,7 +1613,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/models/post.js",
-    "lineNumber": 708,
+    "lineNumber": 848,
     "args": [
       {
         "argValue": "null",
@@ -1394,7 +1640,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/frontend/discourse/app/models/topic.js",
-    "lineNumber": 715,
+    "lineNumber": 865,
     "args": [
       {
         "argValue": "null",
@@ -1412,7 +1658,7 @@
   {
     "eventId": "do-not-disturb:changed",
     "filePath": "/frontend/discourse/app/models/user.js",
-    "lineNumber": 1291,
+    "lineNumber": 1480,
     "args": [
       {
         "argValue": "this.do_not_disturb_until",
@@ -1425,14 +1671,14 @@
   {
     "eventId": "user-drafts:changed",
     "filePath": "/frontend/discourse/app/models/user.js",
-    "lineNumber": 1297,
+    "lineNumber": 1486,
     "args": [],
     "comments": null
   },
   {
     "eventId": "user-reviewable-count:changed",
     "filePath": "/frontend/discourse/app/models/user.js",
-    "lineNumber": 1302,
+    "lineNumber": 1491,
     "args": [
       {
         "argValue": "count",
@@ -1445,7 +1691,7 @@
   {
     "eventId": "page:topic-loaded",
     "filePath": "/frontend/discourse/app/routes/topic/from-params.js",
-    "lineNumber": 94,
+    "lineNumber": 178,
     "args": [
       {
         "argValue": "topic",
@@ -1458,7 +1704,7 @@
   {
     "eventId": "post:highlight",
     "filePath": "/frontend/discourse/app/routes/topic/from-params.js",
-    "lineNumber": 99,
+    "lineNumber": 188,
     "args": [
       {
         "argValue": "closest",
@@ -1469,16 +1715,29 @@
     "comments": "Highlight our post after the next render"
   },
   {
+    "eventId": "page:topic-loaded",
+    "filePath": "/frontend/discourse/app/routes/topic/from-params.js",
+    "lineNumber": 431,
+    "args": [
+      {
+        "argValue": "model.topic",
+        "argType": "property",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "header:hide-topic",
     "filePath": "/frontend/discourse/app/routes/topic.js",
-    "lineNumber": 403,
+    "lineNumber": 351,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/frontend/discourse/app/routes/topic.js",
-    "lineNumber": 428,
+    "lineNumber": 376,
     "args": [
       {
         "argValue": "model",
@@ -1504,7 +1763,7 @@
   {
     "eventId": "composer:preview-toggled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 163,
+    "lineNumber": 725,
     "args": [
       {
         "argValue": "this.isPreviewVisible",
@@ -1517,14 +1776,14 @@
   {
     "eventId": "composer:cancel-upload",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 673,
+    "lineNumber": 845,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:toolbar-popup-menu-button-clicked",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 702,
+    "lineNumber": 874,
     "args": [
       {
         "argValue": "menuItem",
@@ -1537,7 +1796,7 @@
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 794,
+    "lineNumber": 963,
     "args": [
       {
         "argValue": [
@@ -1563,7 +1822,7 @@
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 804,
+    "lineNumber": 973,
     "args": [
       {
         "argValue": [
@@ -1589,21 +1848,21 @@
   {
     "eventId": "emoji-picker:close",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 913,
+    "lineNumber": 1116,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:close",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 918,
+    "lineNumber": 1121,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 969,
+    "lineNumber": 1172,
     "args": [
       {
         "argValue": [
@@ -1629,7 +1888,7 @@
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 993,
+    "lineNumber": 1196,
     "args": [
       {
         "argValue": [
@@ -1655,7 +1914,7 @@
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1002,
+    "lineNumber": 1205,
     "args": [
       {
         "argValue": [
@@ -1681,7 +1940,7 @@
   {
     "eventId": "composer-service:last-validated-at-updated",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1073,
+    "lineNumber": 1263,
     "args": [
       {
         "argValue": [
@@ -1699,21 +1958,21 @@
   {
     "eventId": "composer:saved",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1183,
+    "lineNumber": 1373,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:edited-post",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1201,
+    "lineNumber": 1391,
     "args": [],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1203,
+    "lineNumber": 1393,
     "args": [
       {
         "argValue": "composer.topic",
@@ -1726,7 +1985,7 @@
   {
     "eventId": "composer:created-post",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1208,
+    "lineNumber": 1398,
     "args": [
       {
         "argValue": [
@@ -1744,7 +2003,7 @@
   {
     "eventId": "post:highlight",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1211,
+    "lineNumber": 1401,
     "args": [
       {
         "argValue": "result.payload.post_number",
@@ -1762,7 +2021,7 @@
   {
     "eventId": "composer-service:last-validated-at-updated",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1282,
+    "lineNumber": 1477,
     "args": [
       {
         "argValue": [
@@ -1780,14 +2039,14 @@
   {
     "eventId": "composer:typed-reply",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1324,
+    "lineNumber": 1519,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:open",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1467,
+    "lineNumber": 1660,
     "args": [
       {
         "argValue": [
@@ -1805,7 +2064,7 @@
   {
     "eventId": "draft:destroyed",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1641,
+    "lineNumber": 1739,
     "args": [
       {
         "argValue": "key",
@@ -1818,28 +2077,28 @@
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1660,
+    "lineNumber": 1764,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1675,
+    "lineNumber": 1779,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer:cancelled",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1692,
+    "lineNumber": 1797,
     "args": [],
     "comments": null
   },
   {
     "eventId": "composer-service:last-validated-at-cleared",
     "filePath": "/frontend/discourse/app/services/composer.js",
-    "lineNumber": 1861,
+    "lineNumber": 1859,
     "args": [],
     "comments": null
   },
@@ -1911,21 +2170,21 @@
   {
     "eventId": "quote-button:quote",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 339,
+    "lineNumber": 402,
     "args": [],
     "comments": null
   },
   {
     "eventId": "quote-button:edit",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 355,
+    "lineNumber": 418,
     "args": [],
     "comments": null
   },
   {
     "eventId": "topic:keyboard-trigger",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 527,
+    "lineNumber": 592,
     "args": [
       {
         "argValue": [
@@ -1943,29 +2202,7 @@
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 531,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "type",
-            "valueType": "string"
-          },
-          {
-            "key": "event",
-            "valueType": "variable"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "header:keyboard-trigger",
-    "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 540,
+    "lineNumber": 596,
     "args": [
       {
         "argValue": [
@@ -1987,7 +2224,29 @@
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 547,
+    "lineNumber": 605,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "type",
+            "valueType": "string"
+          },
+          {
+            "key": "event",
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "header:keyboard-trigger",
+    "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
+    "lineNumber": 612,
     "args": [
       {
         "argValue": [
@@ -2009,7 +2268,29 @@
   {
     "eventId": "keyboard:move-selection",
     "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
-    "lineNumber": 792,
+    "lineNumber": 843,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "articles",
+            "valueType": "variable"
+          },
+          {
+            "key": "selectedArticle",
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": "Subscribed by Nested to trigger boundary load-more on last-post selection."
+  },
+  {
+    "eventId": "keyboard:move-selection",
+    "filePath": "/frontend/discourse/app/services/keyboard-shortcuts.js",
+    "lineNumber": 1030,
     "args": [
       {
         "argValue": [
@@ -2044,7 +2325,7 @@
   {
     "eventId": "composer:insert-text",
     "filePath": "/frontend/discourse/app/services/search.js",
-    "lineNumber": 61,
+    "lineNumber": 79,
     "args": [
       {
         "argValue": "document.activeElement.href",
@@ -2067,7 +2348,7 @@
   {
     "eventId": "header:keyboard-trigger",
     "filePath": "/frontend/discourse/app/services/search.js",
-    "lineNumber": 68,
+    "lineNumber": 86,
     "args": [
       {
         "argValue": [
@@ -2084,8 +2365,57 @@
   },
   {
     "eventId": "composer:add-files",
+    "filePath": "/frontend/discourse/app/services/shared-content.js",
+    "lineNumber": 51,
+    "args": [
+      {
+        "argValue": "files",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:cancel-upload",
+    "filePath": "/frontend/discourse/app/static/prosemirror/components/image-node-view.gjs",
+    "lineNumber": 384,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "fileId",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:cancel-upload",
+    "filePath": "/frontend/discourse/app/static/prosemirror/components/upload-placeholder-node-view.gjs",
+    "lineNumber": 45,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "fileId",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:add-files",
     "filePath": "/frontend/discourse/app/static/prosemirror/extensions/image.js",
-    "lineNumber": 438,
+    "lineNumber": 512,
     "args": [
       {
         "argValue": "undefined",
@@ -2108,7 +2438,7 @@
   {
     "eventId": "composer-messages:create",
     "filePath": "/frontend/discourse/app/static/prosemirror/extensions/mention.js",
-    "lineNumber": 251,
+    "lineNumber": 260,
     "args": [
       {
         "argValue": [
@@ -2132,6 +2462,38 @@
     "comments": null
   },
   {
+    "eventId": "composer:cancel-upload",
+    "filePath": "/frontend/discourse/app/static/prosemirror/extensions/upload-placeholder.js",
+    "lineNumber": 72,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "fileId",
+            "valueType": "variable"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "inserted-custom-html:this.args.name",
+    "filePath": "/frontend/discourse/app/ui-kit/d-custom-html.gjs",
+    "lineNumber": 17,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "destroyed-custom-html:this.args.name",
+    "filePath": "/frontend/discourse/app/ui-kit/d-custom-html.gjs",
+    "lineNumber": 23,
+    "args": [],
+    "comments": null
+  },
+  {
     "eventId": "card:close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat/direct-message-button.gjs",
     "lineNumber": 32,
@@ -2139,16 +2501,9 @@
     "comments": null
   },
   {
-    "eventId": "chat:rerender-header",
-    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.gjs",
-    "lineNumber": 79,
-    "args": [],
-    "comments": null
-  },
-  {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.gjs",
-    "lineNumber": 163,
+    "lineNumber": 108,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2156,6 +2511,13 @@
         "argPosition": 1
       }
     ],
+    "comments": null
+  },
+  {
+    "eventId": "chat:rerender-header",
+    "filePath": "/plugins/chat/assets/javascripts/discourse/components/chat-drawer.gjs",
+    "lineNumber": 126,
+    "args": [],
     "comments": null
   },
   {
@@ -2224,7 +2586,20 @@
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
-    "lineNumber": 113,
+    "lineNumber": 101,
+    "args": [
+      {
+        "argValue": "event",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "chat:toggle-close",
+    "filePath": "/plugins/chat/assets/javascripts/discourse/initializers/chat-keyboard-shortcuts.js",
+    "lineNumber": 117,
     "args": [
       {
         "argValue": "event",
@@ -2237,7 +2612,7 @@
   {
     "eventId": "bookmarks:changed",
     "filePath": "/plugins/chat/assets/javascripts/discourse/lib/chat-message-interactor.js",
-    "lineNumber": 374,
+    "lineNumber": 378,
     "args": [
       {
         "argValue": "bookmarkFormData.saveData",
@@ -2255,7 +2630,7 @@
   {
     "eventId": "chat:open-url",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
-    "lineNumber": 66,
+    "lineNumber": 75,
     "args": [
       {
         "argValue": "url",
@@ -2268,7 +2643,7 @@
   {
     "eventId": "chat:open-url",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
-    "lineNumber": 71,
+    "lineNumber": 80,
     "args": [
       {
         "argValue": "url",
@@ -2281,28 +2656,42 @@
   {
     "eventId": "chat:toggle-close",
     "filePath": "/plugins/chat/assets/javascripts/discourse/routes/chat.js",
-    "lineNumber": 76,
+    "lineNumber": 85,
     "args": [],
     "comments": "Full page mode - close any open drawer"
   },
   {
+    "eventId": "notifications:changed",
+    "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js",
+    "lineNumber": 64,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "notifications:changed",
+    "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-pane-pending-manager.js",
+    "lineNumber": 81,
+    "args": [],
+    "comments": null
+  },
+  {
     "eventId": "chat:refresh-channel-members",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-subscriptions-manager.js",
-    "lineNumber": 467,
+    "lineNumber": 522,
     "args": [],
     "comments": null
   },
   {
     "eventId": "notifications:changed",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat-tracking-state-manager.js",
-    "lineNumber": 110,
+    "lineNumber": 117,
     "args": [],
     "comments": null
   },
   {
     "eventId": "chat:toggle-expand",
     "filePath": "/plugins/chat/assets/javascripts/discourse/services/chat.js",
-    "lineNumber": 437,
+    "lineNumber": 415,
     "args": [
       {
         "argValue": "this.chatStateManager.isDrawerExpanded",
@@ -2313,28 +2702,67 @@
     "comments": null
   },
   {
+    "eventId": "composer:insert-block",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-bot-docked-composer.gjs",
+    "lineNumber": 260,
+    "args": [
+      {
+        "argValue": "quotedText1",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "discourse-ai:post-submitted",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-bot-docked-composer.gjs",
+    "lineNumber": 291,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "topicId",
+            "valueType": "property"
+          },
+          {
+            "key": "userPostNumber",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "discourse-ai:bot-header-icon-clicked",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-bot-header-icon.gjs",
-    "lineNumber": 55,
+    "lineNumber": 53,
     "args": [],
     "comments": null
   },
   {
     "eventId": "discourse-ai:new-conversation-btn-clicked",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-bot-sidebar-new-conversation.gjs",
-    "lineNumber": 30,
+    "lineNumber": 36,
     "args": [],
     "comments": null
   },
   {
     "eventId": "AI_RESULTS_TOGGLED",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-full-page-search.gjs",
-    "lineNumber": 67,
+    "lineNumber": 141,
     "args": [
       {
         "argValue": [
           {
             "key": "enabled",
+            "valueType": "boolean"
+          },
+          {
+            "key": "autoEnabled",
             "valueType": "boolean"
           }
         ],
@@ -2347,12 +2775,96 @@
   {
     "eventId": "AI_RESULTS_TOGGLED",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-full-page-search.gjs",
-    "lineNumber": 156,
+    "lineNumber": 151,
     "args": [
       {
         "argValue": [
           {
             "key": "enabled",
+            "valueType": "undefined"
+          },
+          {
+            "key": "autoEnabled",
+            "valueType": "property"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "AI_RESULTS_TOGGLED",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-full-page-search.gjs",
+    "lineNumber": 189,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "enabled",
+            "valueType": "boolean"
+          },
+          {
+            "key": "autoEnabled",
+            "valueType": "boolean"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "ai-quick-search:state-changed",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/connectors/search-menu-results-bottom/ai-quick-search.gjs",
+    "lineNumber": 90,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "searching",
+            "valueType": "boolean"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "ai-quick-search:state-changed",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/connectors/search-menu-results-bottom/ai-quick-search.gjs",
+    "lineNumber": 116,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "searching",
+            "valueType": "boolean"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "discourse-ai:bot-reply-finished",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/initializers/ai-bot-replies.js",
+    "lineNumber": 108,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "topicId",
+            "valueType": "variable"
+          },
+          {
+            "key": "postId",
             "valueType": "undefined"
           }
         ],
@@ -2363,15 +2875,19 @@
     "comments": null
   },
   {
-    "eventId": "AI_RESULTS_TOGGLED",
-    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/components/ai-full-page-search.gjs",
-    "lineNumber": 193,
+    "eventId": "discourse-ai:bot-reply-started",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/initializers/ai-bot-replies.js",
+    "lineNumber": 117,
     "args": [
       {
         "argValue": [
           {
-            "key": "enabled",
-            "valueType": "boolean"
+            "key": "topicId",
+            "valueType": "variable"
+          },
+          {
+            "key": "postId",
+            "valueType": "undefined"
           }
         ],
         "argType": "object",
@@ -2383,7 +2899,7 @@
   {
     "eventId": "discourse-ai:bot-pm-created",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-bot-conversations-hidden-submit.js",
-    "lineNumber": 86,
+    "lineNumber": 84,
     "args": [
       {
         "argValue": [
@@ -2407,41 +2923,45 @@
     "comments": null
   },
   {
+    "eventId": "discourse-ai:bot-pm-reply-created",
+    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-bot-docked-submit.js",
+    "lineNumber": 69,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "topicId",
+            "valueType": "variable"
+          },
+          {
+            "key": "postId",
+            "valueType": "undefined"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "discourse-ai:force-conversations-sidebar",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js",
-    "lineNumber": 105,
+    "lineNumber": 111,
     "args": [],
     "comments": null
   },
   {
     "eventId": "discourse-ai:stop-forcing-conversations-sidebar",
     "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/ai-conversations-sidebar-manager.js",
-    "lineNumber": 166,
+    "lineNumber": 159,
     "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "composer:replace-text",
-    "filePath": "/plugins/discourse-ai/assets/javascripts/discourse/services/image-caption-popup.js",
-    "lineNumber": 29,
-    "args": [
-      {
-        "argValue": "match",
-        "argType": "variable",
-        "argPosition": 1
-      },
-      {
-        "argValue": "replacement",
-        "argType": "variable",
-        "argPosition": 2
-      }
-    ],
     "comments": null
   },
   {
     "eventId": "header:update-topic",
     "filePath": "/plugins/discourse-assign/assets/javascripts/discourse/initializers/extend-for-assigns.js",
-    "lineNumber": 506,
+    "lineNumber": 470,
     "args": [
       {
         "argValue": "topic",
@@ -2452,9 +2972,94 @@
     "comments": null
   },
   {
+    "eventId": "ace:resize",
+    "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/show/explorer/edit.js",
+    "lineNumber": 241,
+    "args": [],
+    "comments": null
+  },
+  {
+    "eventId": "bookmarks:changed",
+    "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group/reports/show.js",
+    "lineNumber": 116,
+    "args": [
+      {
+        "argValue": "bookmarkFormData.saveData",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "bookmark.attachedTo",
+        "argType": "called_function",
+        "argPosition": 2
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:replace-text",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/composer-event-editor.gjs",
+    "lineNumber": 72,
+    "args": [
+      {
+        "argValue": "parsed1.full",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "newBlock1",
+        "argType": "variable",
+        "argPosition": 2
+      },
+      {
+        "argValue": [
+          {
+            "key": "skipNewSelection",
+            "valueType": "boolean"
+          },
+          {
+            "key": "skipFocus",
+            "valueType": "boolean"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 3
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "composer:replace-text",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/composer-event-editor.gjs",
+    "lineNumber": 83,
+    "args": [
+      {
+        "argValue": "parsed1.full",
+        "argType": "property",
+        "argPosition": 1
+      },
+      {
+        "argValue": "",
+        "argType": "string",
+        "argPosition": 2
+      },
+      {
+        "argValue": [
+          {
+            "key": "skipNewSelection",
+            "valueType": "boolean"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 3
+      }
+    ],
+    "comments": null
+  },
+  {
     "eventId": "calendar:invitee-left-event",
-    "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 42,
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
+    "lineNumber": 125,
     "args": [
       {
         "argValue": [
@@ -2475,21 +3080,12 @@
   },
   {
     "eventId": "calendar:update-invitee-status",
-    "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 56,
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
+    "lineNumber": 192,
     "args": [
       {
-        "argValue": [
-          {
-            "key": "status",
-            "valueType": "variable"
-          },
-          {
-            "key": "postId",
-            "valueType": "property"
-          }
-        ],
-        "argType": "object",
+        "argValue": "data1",
+        "argType": "variable",
         "argPosition": 1
       }
     ],
@@ -2497,234 +3093,389 @@
   },
   {
     "eventId": "calendar:create-invitee-status",
-    "filePath": "/plugins/discourse-calendar/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
-    "lineNumber": 70,
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/discourse-post-event/status.gjs",
+    "lineNumber": 195,
     "args": [
       {
-        "argValue": [
-          {
-            "key": "status",
-            "valueType": "variable"
-          },
-          {
-            "key": "postId",
-            "valueType": "property"
-          }
-        ],
-        "argType": "object",
+        "argValue": "data1",
+        "argType": "variable",
         "argPosition": 1
       }
     ],
     "comments": null
   },
   {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 37,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 53,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 93,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 124,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 141,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 153,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 172,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 201,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 218,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "page:changed",
-    "filePath": "/plugins/discourse-calendar/test/javascripts/integration/components/upcoming-events-list-test.gjs",
-    "lineNumber": 239,
-    "args": [
-      {
-        "argValue": [
-          {
-            "key": "url",
-            "valueType": "string"
-          }
-        ],
-        "argType": "object",
-        "argPosition": 1
-      }
-    ],
-    "comments": null
-  },
-  {
-    "eventId": "ace:resize",
-    "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/index.js",
-    "lineNumber": 119,
-    "args": [],
-    "comments": null
-  },
-  {
-    "eventId": "ace:resize",
-    "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/admin-plugins/explorer/queries/details.js",
+    "eventId": "calendar:update-invitee-status",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/livestream/zoom-page.gjs",
     "lineNumber": 137,
-    "args": [],
+    "args": [
+      {
+        "argValue": "appEventData1",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
     "comments": null
   },
   {
-    "eventId": "bookmarks:changed",
-    "filePath": "/plugins/discourse-data-explorer/assets/javascripts/discourse/controllers/group/reports/show.js",
-    "lineNumber": 121,
+    "eventId": "calendar:create-invitee-status",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/components/livestream/zoom-page.gjs",
+    "lineNumber": 140,
     "args": [
       {
-        "argValue": "bookmarkFormData.saveData",
-        "argType": "property",
+        "argValue": "appEventData1",
+        "argType": "variable",
         "argPosition": 1
-      },
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "calendar:update-invitee-status",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/lib/livestream-rsvp.js",
+    "lineNumber": 92,
+    "args": [
       {
-        "argValue": "bookmark.attachedTo",
-        "argType": "called_function",
-        "argPosition": 2
+        "argValue": "data",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "calendar:create-invitee-status",
+    "filePath": "/plugins/discourse-events/assets/javascripts/discourse/lib/livestream-rsvp.js",
+    "lineNumber": 95,
+    "args": [
+      {
+        "argValue": "data",
+        "argType": "variable",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 49,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 65,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 97,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 146,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 189,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 233,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 300,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 323,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 340,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 352,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 371,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 396,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 413,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 434,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 492,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 532,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 574,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
+      }
+    ],
+    "comments": null
+  },
+  {
+    "eventId": "page:changed",
+    "filePath": "/plugins/discourse-events/test/javascripts/integration/components/upcoming-events-list-test.gjs",
+    "lineNumber": 582,
+    "args": [
+      {
+        "argValue": [
+          {
+            "key": "url",
+            "valueType": "string"
+          }
+        ],
+        "argType": "object",
+        "argPosition": 1
       }
     ],
     "comments": null
@@ -2732,7 +3483,7 @@
   {
     "eventId": "policy:changed",
     "filePath": "/plugins/discourse-policy/assets/javascripts/discourse/initializers/extend-for-policy.gjs",
-    "lineNumber": 89,
+    "lineNumber": 98,
     "args": [
       {
         "argValue": [
@@ -2754,7 +3505,7 @@
   {
     "eventId": "discourse-reactions:reaction-toggled",
     "filePath": "/plugins/discourse-reactions/assets/javascripts/discourse/models/discourse-reactions-custom-reaction.js",
-    "lineNumber": 17,
+    "lineNumber": 18,
     "args": [
       {
         "argValue": [
@@ -2776,7 +3527,7 @@
   {
     "eventId": "discourse-solved:solution-toggled",
     "filePath": "/plugins/discourse-solved/assets/javascripts/discourse/components/solved-accept-answer-button.gjs",
-    "lineNumber": 28,
+    "lineNumber": 32,
     "args": [
       {
         "argValue": "post1",
@@ -2789,7 +3540,7 @@
   {
     "eventId": "discourse-solved:solution-toggled",
     "filePath": "/plugins/discourse-solved/assets/javascripts/discourse/components/solved-unaccept-answer-button.gjs",
-    "lineNumber": 28,
+    "lineNumber": 43,
     "args": [
       {
         "argValue": "post1",
@@ -2847,7 +3598,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 190,
+    "lineNumber": 413,
     "args": [
       {
         "argValue": "poll1",
@@ -2860,8 +3611,8 @@
         "argPosition": 2
       },
       {
-        "argValue": "this.vote",
-        "argType": "property",
+        "argValue": "castVote1",
+        "argType": "variable",
         "argPosition": 3
       }
     ],
@@ -2870,7 +3621,7 @@
   {
     "eventId": "poll:voted",
     "filePath": "/plugins/poll/assets/javascripts/discourse/components/poll.gjs",
-    "lineNumber": 448,
+    "lineNumber": 621,
     "args": [
       {
         "argValue": "poll1",
